@@ -1,0 +1,14 @@
+locale: de-DE
+namespace: js
+translations:
+    ###########################################################################
+    # General
+    ###########################################################################
+
+    - key: general.survey_intro_js2020
+      t: >
+          2020 war ein hartes Jahr für uns alle, Sorgen über JavaScript wirken dagegen ziemlich sinnlos.
+
+          Trotzdem dreht sich die Welt weiter, genauso wie JavaScript. Und wieder einmal, versuchen wir
+          mit deiner Hilfe ein umfassendes Bild über das JavaScript-Ökosystem zu bekommen. Finden wir
+          mehr raus und schauen wohin es geht.

@@ -24,6 +24,11 @@ translations:
     - key: general.survey_read_only
       t: >
           Du kannst die Daten der Umfrage derzeit nur ansehen.
+    - key: general.survey_preview
+      t: >
+          Die Umfrage befindet sich in der Vorschau. Die Fragen können sich noch ändern
+          und alle eingegebenen Daten werden gelöscht bevor die eigentliche Umfrage startet.
+
     - key: general.survey_read_only_back
       t: >
           <a href="{link}">Zurück</a> zur Hauptseite zum Starten oder Fortsetzen der Umfrage.
@@ -35,6 +40,12 @@ translations:
       t: Aktuell sind keine Umfragen offen.
     - key: general.closed_surveys
       t: Geschlossene Umfragen
+    - key: general.no_closed_surveys
+      t: Derzeit gibt es keine geschlossene Umfragen.
+    - key: general.preview_surveys
+      t: Vorschau
+    - key: general.no_preview_surveys
+      t: Keine Umfrage in der Vorschau
     - key: general.start_survey
       t: Umfrage beginnen »
     - key: general.continue_survey
@@ -57,6 +68,16 @@ translations:
       t: Übersetzer
     - key: general.translation_help
       t: Hilfe bei der Übersetzung
+    - key: general.newly_added
+      t: Neu hinzugefügt in diesem Jahr
+
+    # credits
+    - key: credits.thanks
+      t: Besonderen Dank
+    - key: credits.accessibility
+      t: Accessibility Consulting
+    - key: credits.survey_design
+      t: Umfrage Design
 
     # footer
     - key: general.privacy_policy
@@ -74,6 +95,14 @@ translations:
           Beachte: Alle Fragen sind optional, Du musst nicht alle Fragen beantworten.
     - key: general.data_is_saved
       t: Deine Daten werden immer dann gespeichert, wenn du einen Abschnitt weiter oder zurück navigierst.
+    - key: general.close_nav
+      t: Schließe Menü
+    - key: general.open_nav
+      t: Öffne Menü
+    - key: general.more_actions
+      t: Mehr Aktionen
+    - key: general.skip_to_content
+      t: Springe zu Inhalt
 
     # thanks
     - key: general.back
@@ -85,14 +114,17 @@ translations:
           Deine Daten sind gespeichert. Du kannst sie einsehen und bearbeiten bis die Umfrage geschlossen wird.
 
           Zudem kannst Du uns helfen die Umfrage mit anderen Menschen zu teilen. Alles hilft und macht die Daten noch repräsentativer:
+
     - key: thanks.learn_more_about
-      t: 'Einige der Funktionen, zu denen Du vielleicht mehr erfahren möchtest:'
+      t: 'Einige der Funktionen, zu denen du vielleicht mehr erfahren möchtest:'
     - key: thanks.knowledge_score
       t: Wissens-Score
     - key: thanks.score_explanation
       t: >
           Du hast <span class="score-number score-number-known">{known}</span> Feature/s von <span class="score-number score-number-total">{total}</span> Features aus der Umfrage verwendet oder davon gehört. Das bringt Dich in die Top <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
           aller Antworten.
+
+
     - key: thanks.share_on_twitter
       t: Teile auf Twitter
     - key: thanks.share_score_message
@@ -109,6 +141,28 @@ translations:
     # forms
     - key: forms.select_option
       t: Option wählen
+    - key: forms.clear_field
+      t: Löschen
+
+    # partners
+    - key: partners.our_partners
+      t: Unsere Partner
+    - key: partners.become_partner
+      t: Werde Partner
+
+    # 404
+    - key: notfound.title
+      t: 404 Nicht gefunden
+    - key: notfound.description
+      t: Entschuldigung, wir konnten die gesuchte Seite leider nicht finden.
+
+    # other
+    - key: general.join_discord
+      t: Komm auf <a href="{link}">Discord</a>.
+    - key: general.translator_mode
+      t: Drücke Strg/Alt, um den Übersetzer-Modus zu starten.
+    - key: general.charts_nivo
+      t: Charts generiert mit <a href="{link}">Nivo</a>.
 
     ###########################################################################
     # Nav
@@ -147,6 +201,9 @@ translations:
       t: Andere Werkzeuge
     - key: sections.other_tools.description
       t: Berücksichtige nur Werkzeuge und Technologien die Du regelmäßig nutzt.
+
+    - key: sections.report.title
+      t: Trend Report
 
     ###########################################################################
     # Options
@@ -190,15 +247,27 @@ translations:
 
     # tools experience
     - key: options.tools.never_heard
-      t: 🤷 Nie davon gehört/Nicht sicher worum es sich handelt
+      t: 🤷 Nie davon gehört./Nicht sicher worum es sich handelt.
     - key: options.tools.interested
       t: ✅ Davon gehört > Möchte ich lernen
     - key: options.tools.not_interested
       t: 🚫 Davon gehört > Kein Interesse
     - key: options.tools.would_use
-      t: 👍 Verwendet > Würde ich wieder verwenden
+      t: 👍 Verwendet > Würde ich wieder verwenden.
     - key: options.tools.would_not_use
-      t: 👎 Verwendet > Würde ich nicht wieder verwenden
+      t: 👎 Verwendet > Würde ich nicht wieder verwenden.
+
+      # tools experience (no emoji)
+    - key: options.tools.never_heard.legend
+      t: Nie davon gehört./Nicht sicher worum es sich handelt.
+    - key: options.tools.interested.legend
+      t: Davon gehört > Möchte ich lernen
+    - key: options.tools.not_interested.legend
+      t: Davon gehört > Kein Interesse
+    - key: options.tools.would_use.legend
+      t: Verwendet > Würde ich wieder verwenden.
+    - key: options.tools.would_not_use.legend
+      t: Verwendet > Würde ich nicht wieder verwenden.
 
     # tools experience (short versions)
     - key: options.tools.never_heard.short
@@ -235,7 +304,7 @@ translations:
       t: Glücklich
     - key: options.happiness.4.short
       t: Sehr glücklich
-      
+
     # opinions
     - key: options.opinions.0
       t: Starke Ablehnung
@@ -247,6 +316,24 @@ translations:
       t: Zustimmung
     - key: options.opinions.4
       t: Starke Zustimmung
+
+    # age
+    - key: options.age.range_less_than_10
+      t: Unter 10 Jahre alt
+    - key: options.age.range_10_18
+      t: 10-18 Jahre alt
+    - key: options.age.range_18_24
+      t: 18-24 Jahre alt
+    - key: options.age.range_25_34
+      t: 24-34 Jahre alt
+    - key: options.age.range_35_44
+      t: 35-44 Jahre alt
+    - key: options.age.range_45_54
+      t: 45-54 Jahre alt
+    - key: options.age.range_55_64
+      t: 55-64 Jahre alt
+    - key: options.age.range_more_than_65
+      t: 65 Jahre oder älter
 
     # years of experience
     - key: options.years_of_experience.range_less_than_1
@@ -365,7 +452,6 @@ translations:
       t: Back-end Developer/Engineer
 
     # JavaScript proficiency
-
     - key: options.javascript_proficiency.0
       t: Kann kein JavaScript schreiben.
     - key: options.javascript_proficiency.1
@@ -378,7 +464,6 @@ translations:
       t: Habe mit erweiterten Frontend-Mustern zu tun (State Management, Data Loading, usw).
 
     # CSS proficiency
-
     - key: options.css_proficiency.0
       t: Praktisch kein Wissen über CSS.
     - key: options.css_proficiency.1
@@ -391,7 +476,6 @@ translations:
       t: Kann ein komplett neues Frontend-Projekt neu aufbauen und folge dabei einer konsistenten Methode.
 
     # Back-end proficiency
-
     - key: options.backend_proficiency.0
       t: Kann keine Backend Aufgaben zu übernehmen.
     - key: options.backend_proficiency.1
@@ -425,6 +509,8 @@ translations:
       t: divers
     - key: options.gender.prefer_not_to_say
       t: Möchte ich nicht sagen
+    - key: options.gender.not_listed
+      t: Anderes
 
     # Race & Ethnicity
 
@@ -432,6 +518,8 @@ translations:
       t: Weiß oder europäischer Abstammung
     - key: options.race_ethnicity.south_asian
       t: Süd asiatisch
+    - key: options.race_ethnicity.south_east_asian
+      t: Südost asiatisch
     - key: options.race_ethnicity.hispanic_latin
       t: Hispanic oder Latino / Latina
     - key: options.race_ethnicity.east_asian
@@ -446,10 +534,31 @@ translations:
       t: Biracial
     - key: options.race_ethnicity.native_american_islander_australian
       t: Amerikanischer Ureinwohner, pazifische Inselbewohner oder Indigener Australier
+    - key: options.race_ethnicity.not_listed
+      t: Anderes
+
+    # Disability Status
+    - key: options.disability_status.visual_impairments
+      t: >
+        Seheinschränkung (z.B. Blindheit, Farbenblindheit usw.)
+    - key: options.disability_status.hearing_impairments
+      t: >
+        Hörbeeinträchtigungen (z.B. Taubheit, Tinnitus usw.)
+    - key: options.disability_status.mobility_impairments
+      t: >
+        Mobilitätseinschränkung (z.B. Arthritis, Karpaltunnel usw.)
+    - key: options.disability_status.cognitive_impairments
+      t: >
+        Kognitiven Beeinträchtigungen (z.B. Angst, Legasthenie usw.)
+    - key: options.disability_status.not_listed
+      t: >
+        Anderes
 
     # Form Factors
     - key: options.form_factors.desktop
       t: Desktop
+    - key: options.form_factors.keyboard_only
+      t: Desktop, nur Tastatur
     - key: options.form_factors.smartphone
       t: Smartphone
     - key: options.form_factors.feature_phone
@@ -466,6 +575,118 @@ translations:
       t: Screen Reader
     - key: options.form_factors.print
       t: Druckerzeugnis
+    - key: options.form_factors.testing_tools
+      t: Testing Werkzeuge (Axe, Lighthouse, etc.)
+    - key: options.form_factors.vision_simulator
+      t: Altered Vision Simulator (Farbenblindheit, etc.)
+
+    # Industry Sector
+    - key: options.industry_sector.ecommerce
+      t: Onlinehandel & Einzelhandel
+    - key: options.industry_sector.news_media
+      t: News, Media & Blogging
+    - key: options.industry_sector.healthcare
+      t: Gesundheit
+    - key: options.industry_sector.finance
+      t: Finanzen
+    - key: options.industry_sector.programming_tools
+      t: Programmierung & Technik
+    - key: options.industry_sector.socialmedia
+      t: Social Media
+    - key: options.industry_sector.marketing_tools
+      t: Marketing-/Vertrieb-/Analyse-Werkzeuge
+    - key: options.industry_sector.education
+      t: Bildung
+    - key: options.industry_sector.real_estate
+      t: Immobilien
+    - key: options.industry_sector.government
+      t: Regierung
+    - key: options.industry_sector.entertainment
+      t: Unterhaltung
+    - key: options.industry_sector.consulting
+      t: Consulting & Services
+    - key: options.industry_sector.travel
+      t: Reise
+    - key: options.industry_sector.insurance
+      t: Versicherung
+    - key: options.industry_sector.logistics
+      t: Logistik
+    - key: options.industry_sector.energy
+      t: Energie
+    - key: options.industry_sector.telecommunications
+      t: Telekommunikation
+    - key: options.industry_sector.student
+      t: Student
+    - key: options.industry_sector.hospitality
+      t: Hospitality
+    - key: options.industry_sector.cyber_security
+      t: Cyber Security
+    - key: options.industry_sector.construction
+      t: Bau
+    - key: options.industry_sector.automotive
+      t: Automobil
+    - key: options.industry_sector.agriculture
+      t: Landwirtschaft
+    - key: options.industry_sector.transport
+      t: Transport
+    - key: options.industry_sector.manufacturing
+      t: Herstellung
+
+    # tool evaluation
+    - key: options.tool_evaluation.learning_curve_documentation
+      t: Dokumentation
+    - key: options.tool_evaluation.learning_curve_documentation.description
+      t: Ist es einfach zu lernen und/oder gut dokumentiert?
+    - key: options.tool_evaluation.momentum_popularity
+      t: Hype & Momentum
+    - key: options.tool_evaluation.momentum_popularity.description
+      t: Generiert es aktuell viel Buzz?
+    - key: options.tool_evaluation.user_base_size
+      t: Größe der Nutzerbasis
+    - key: options.tool_evaluation.user_base_size.description
+      t: Ist es eine lang und gut etablierte Lösung?
+    - key: options.tool_evaluation.developer_experience_tooling
+      t: Developer Experience
+    - key: options.tool_evaluation.developer_experience_tooling.description
+      t: Hat es gute Entwicklerwerkzeuge, ein großes Plugin-Ökosystem usw.?
+    - key: options.tool_evaluation.performance_user_experience
+      t: User Experience
+    - key: options.tool_evaluation.performance_user_experience.description
+      t: Hilft es gute User Experiences zu erschaffen?
+    - key: options.tool_evaluation.creator_team
+      t: Creator & Team
+    - key: options.tool_evaluation.creator_team.description
+      t: Wird es von einem bekannten, erfahrenen und gut ausgestatteten Tam entwickelt?
+    - key: options.tool_evaluation.accessibility_features
+      t: Accessibility Features
+    - key: options.tool_evaluation.accessibility_features.description
+      t: Hilft es gute Accessibility Erfahrungen zu erschaffen?
+    - key: options.tool_evaluation.community_inclusivity
+      t: Community & Inklusivität
+    - key: options.tool_evaluation.community_inclusivity.description
+      t: Hat es eine einladende und lebendige Gemeinschaft?
+
+
+
+    # accessibility features
+    - key: options.accessibility_features.keyboard_navigation
+      t: Navigation mit Tastatur
+    - key: options.accessibility_features.compliant_contrast
+      t: Kontrast nach WCAG
+    - key: options.accessibility_features.focus_indicators
+      t: Fokus-Indikatoren
+    - key: options.accessibility_features.skip_to_content_link
+      t: Springe-zu-Inhalt link
+    - key: options.accessibility_features.color_themes
+      t: Themes (Dunkelmodus, Hochkontrastmodus usw.)
+    - key: options.accessibility_features.prefers_reduced_motion
+      t: Prefers-reduced-motion
+    - key: options.accessibility_features.alt_text
+      t: Alt Texte
+    - key: options.accessibility_features.semantic_markup
+      t: Semantisches Markup
+    - key: options.accessibility_features.aria_attributes
+      t: ARIA HTML Attribute
 
     ###########################################################################
     # Tools
@@ -474,16 +695,21 @@ translations:
     - key: tools.other_tools
       t: Andere Optionen
     - key: tools.other_tools.description
-      t: Andere Optionen, die Du für den aktuellen Abschnitt nutzen kannst und die in der unteren Liste nicht erwähnt werden.
+      t: Andere Optionen, die du für den aktuellen Abschnitt nutzen kannst und die in der unteren Liste nicht erwähnt werden.
     - key: tools.happiness
       t: Zufriedenheit insgesamt
     - key: tools.happiness.description
       t: >
-          Gib mit 1 (sehr zufrieden) bis 5 (sehr unzufrieden) an wie zufrieden Du insgesamt mit den unten genannten Optionen bist.
+          Gib mit 1 (sehr zufrieden) bis 5 (sehr unzufrieden) an wie zufrieden du insgesamt mit den unten genannten Optionen bist.
+
 
     ###########################################################################
     # Demographics (About You/User Info)
     ###########################################################################
+
+    # age
+    - key: user_info.age
+      t: Alter
 
     # years of experience
     - key: user_info.years_of_experience
@@ -507,35 +733,50 @@ translations:
     - key: user_info.job_title
       t: Job Titel
     - key: user_info.job_title.description
-      t: Wie bezeichnest Du Dich?
+      t: Wie bezeichnest du dich?
 
     # javascript proficiency
-
     - key: user_info.javascript_proficiency
       t: JavaScript Fähigkeiten
     - key: user_info.javascript_proficiency.description
-      t: Wie sind Deine Fähigkeiten im Bezug auf JavaScript?
+      t: Wie sind deine Fähigkeiten im Bezug auf JavaScript?
 
     # css proficiency
-
     - key: user_info.css_proficiency
       t: CSS Fähigkeiten
     - key: user_info.css_proficiency.description
-      t: Wie sind Deine Fähigkeiten im Bezug auf CSS?
+      t: Wie sind deine Fähigkeiten im Bezug auf CSS?
 
     # backend proficiency
     - key: user_info.backend_proficiency
       t: Backend Fähigkeiten
     - key: user_info.backend_proficiency.description
-      t: Wie sind Deine Fähigkeiten im Bezug auf Entwicklungen im Backend?
+      t: Wie sind deine Fähigkeiten im Bezug auf Entwicklungen im Backend?
 
     # gender
     - key: user_info.gender
       t: Geschlecht
+    - key: user_info.gender.description
+      t: >
+        Wir nutzen diese Daten zur verfolgung und Verbesserung der Repräsentativität.
 
-    # skin tone/appearance
+    # race & ethnicity
     - key: user_info.race_ethnicity
       t: Rasse & Ethnizität
+    - key: user_info.race_ethnicity.description
+      t: >
+        Wir nutzen diese Daten zur verfolgung und Verbesserung der Repräsentativität.
+
+    # disability status
+    - key: user_info.disability_status
+      t: Behinderung
+    - key: user_info.disability_status.description
+      t: >
+        Wir nutzen diese Daten zur verfolgung und Verbesserung der Zugänglichkeit und Repräsentativität.
+
+    # disability status (other)
+    - key: user_info.disability_status.others
+      t: Andere Behinderungen
 
     # other info
     - key: user_info.how_did_user_find_out_about_the_survey
@@ -545,9 +786,42 @@ translations:
     - key: user_info.country
       t: Dein Land
 
+    - key: user_info.github_username
+      t: Dein GitHub Nutzername
+    - key: user_info.github_username.description
+      t: >
+        Wir könnten in Zukunft GitHub-Benutzernamen verwenden, um uns
+        Repos und Querverweise auf öffentlich zugängliche Informationen anzusehen.
+
+    - key: user_info.twitter_username
+      t: Dein Twitter Nutzername
+    - key: user_info.twitter_username.description
+      t: >
+        Wir könnten in Zukunft Twitter-Benutzernamen verwenden, um uns
+        Twitter-Aktivität und Querverweise öffentlich zugänglicher Informationen anzusehen
+        (z.B. Liste der Personen, denen du folgst usw.).
+
+    - key: user_info.industry_sector
+      t: Industriesektor
+    - key: user_info.industry_sector.description
+      t: In welchem Industriesektor arbeitest du?
+    - key: user_info.industry_sector.others
+      t: Andere Industriesektoren
+    - key: user_info.industry_sector.others.description
+      t: Andere Industriesektoren in denen du arbeitest, die aber oben nicht genannt wurden.
+
     ###########################################################################
     # Other Tools
     ###########################################################################
+
+    - key: tools_others.libraries
+      t: Bibliotheken
+    - key: tools_others.libraries.description
+      t: Welche Bibliotheken nutzt du regelmäßig?
+    - key: tools_others.libraries.others
+      t: Andere Bibliotheken
+    - key: tools_others.libraries.others.description
+      t: Andere Antworten (Freitextfeld)
 
     - key: tools_others.text_editors
       t: Text Editoren
@@ -627,3 +901,19 @@ translations:
       t: Andere Podcasts
     - key: resources.podcasts.others.description
       t: Andere Antworten (Freifeld).
+
+    # people
+    - key: resources.people
+      t: People
+    - key: resources.people.description
+      t: Personen deren Artikel du liest, denen du folgst oder du einfach erwähnen willst.
+    # - key: resources.people.others
+    #   t: Other People
+    # - key: resources.people.others.description
+    #   t: Other answers (freeform field).
+    - key: resources.people.others
+      t: People
+    - key: resources.people.others.description
+      t: >
+        Personen deren Artikel du liest, denen du folgst oder du wegen ihrer Arbeit erwähnen willst
+        (Freifeldtext, Namen kommasepariert).

@@ -1,0 +1,17 @@
+locale: de-DE
+namespace: css
+translations:
+    ###########################################################################
+    # General
+    ###########################################################################
+
+    - key: general.survey_intro_css2021
+      t: >
+          Hi CSS, wie geht's in letzter Zeit? Ach ja, `@container`? Oh und
+          intrinsic sizing? Und auch `@property`?! Wow, du bist echt beschäftigt!
+
+
+          Auch wenn die Pandemie uns das Leben in 2021 schwerer gemacht hat, so haben
+          es viele Beitragende in der ganzen Welt geschafft CSS irgendwie voranzutreiben.
+          Daher ist es mal wieder an der Zeit die Umfrage zu starten und herauszufinden
+          wo das alles hinführt. Und vielleicht lernst du dabei neue Dinge.

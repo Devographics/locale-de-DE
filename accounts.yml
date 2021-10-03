@@ -70,4 +70,4 @@ translations:
     t: Angemeldet als {email}
   - key: accounts.questions
     t: >
-        Wenn Du Fragen zur Datenverarbeitung hast oder Deine Daten löschen lassen möchtest <a href="mailto:hello@stateofjs.com">kontaktiere uns</a> bitte.
+        Wenn Du Fragen zur Datenverarbeitung hast oder Deine Daten löschen lassen möchtest <a href="mailto:hello@stateofjs.com">kontaktiere uns</a> gerne.
