@@ -1,0 +1,95 @@
+locale: de-DE
+translations:
+    ###########################################################################
+    # General
+    ###########################################################################
+
+    - key: general.no_preview_surveys
+      t: Keine Umfragen in der Vorschau verfügbar.
+    - key: general.global_nav
+      t: Global
+
+    ###########################################################################
+    # FAQ
+    ###########################################################################
+
+    - key: general.faq
+      t: FAQ
+    - key: faq.create_account
+      t: Warum brauche ich einen Account?
+    - key: faq.create_account.description
+      t: Wir bitten dich einen Account anzulegen, um doppelte Antworten zu vermeiden, deine Daten zu speichern und um dich über die Ergebnisse zu informieren.
+    - key: faq.questions_required
+      t: Muss jede Frage beantwortet werden?
+    - key: faq.questions_required.description
+      t: Nein, jede Frage ist freiwillig und kann übersprungen werden.
+    - key: faq.data_published
+      t: Werden meine Daten veröffentlicht?
+    - key: faq.data_published.description
+      t: Ja, alle Daten werden veröffentlicht, aber erst nachdem persönliche Daten entfernt wurden (E-Mail, Nutzernamen, ID's, usw.).
+    - key: faq.survey_design
+      t: Wie sind die Umfragen gestaltet?
+    - key: faq.survey_design.description
+      t: Die Umfragen werden basierend auf dem Feedback der Community gestaltet und von Experten begutachtet. Du kannst hier [mehr erfahren](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
+    - key: faq.results_released
+      t: Wann werden die Ergebnisse veröffentlicht?
+    - key: faq.results_released.description
+      t: Ergebnisse werden verfügbar einige Wochen nachdem die Umfrage geschlossen wurde.
+    - key: faq.survey_deadline
+      t: Wann wird die Umfrage geschlossen?
+    - key: faq.survey_deadline.description
+      t: Die Umfrage läuft planmäßig bis {date}.
+    - key: faq.team
+      t: Wer betreibt die Umfragen?
+    - key: faq.team.description
+      t: Die Umfragen werden primär durch [mich](http://sachagreif.com) betrieben und in Zusammenarbeit mit Beitragenden, Übersetzer:innen und Freiwilligen.
+
+    ###########################################################################
+    # Form Controls
+    ###########################################################################
+
+    - key: bracket.vs
+      t: vs
+    - key: bracket.start_over
+      t: Von vorn beginnen
+    - key: bracket.winner
+      t: >
+      Gewinner:
+    - key: bracket.round
+      t: Runde
+    - key: bracket.empty_bracket
+      t: Ausstehende Ergebnisse (vervollständige erst die vorherige Runde)
+    - key: bracket.result
+      t: Ergebnis
+    - key: bracket.cancel
+      t: Abbrechen
+
+
+    ###########################################################################
+    # Demographics (About You/User Info)
+    ###########################################################################
+
+    - key: user_info.gender.description
+      t: >
+        Was beschreibt dich, sofern zutreffend?
+
+
+        Wir nutzen diese Daten um Inklusivität und Repräsentativität zu verfolgen und zu verbessern.
+        Wie alle anderen Fragen ist dies rein optional.
+
+    - key: user_info.race_ethnicity.description
+      t: >
+        Was beschreibt dich, sofern zutreffend? Bitte wähle alles Zutreffende.
+
+
+        Wir nutzen diese Daten um Inklusivität und Repräsentativität zu verfolgen und zu verbessern.
+        Wie alle anderen Fragen ist dies rein optional.
+
+    - key: user_info.disability_status.description
+      t: >
+        Was beschreibt dich, sofern zutreffend? Bitte wähle alles Zutreffende.
+        Das kann auch vorübergehende Einschränkungen und Verletzungen beinhalten.
+
+
+        Wir nutzen diese Daten um Zugänglichkeit und Repräsentativität zu verfolgen und zu verbessern.
+        Wie alle anderen Fragen ist das rein optional.
