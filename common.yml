@@ -890,6 +890,37 @@ translations:
     # Resources
     ###########################################################################
 
+    # first steps
+    - key: resources.first_steps
+      t: Erste Schritte mit CSS
+    - key: resources.first_steps.description
+      t: Wie hast Du zu Beginn deiner Tätigkeit CSS gelernt?
+    - key: resources.first_steps.books
+      t: Bücher
+    - key: resources.first_steps.videos
+      t: Videos & Screencasts
+    - key: resources.first_steps.courses_free
+      t: Onlinekurse (kostenlos)
+    - key: resources.first_steps.courses_paid
+      t: Onlinekurse (bezahlt)
+    - key: resources.first_steps.school
+      t: Schule & höhere Bildung
+    - key: resources.first_steps.podcasts
+      t: Podcasts
+    - key: resources.first_steps.bootcamp
+      t: Bootcamps
+    - key: resources.first_steps.on_the_job
+      t: Ausbildung am Arbeitsplatz
+    - key: resources.first_steps.mentoring
+      t: Mentoring
+    - key: resources.first_steps.self_directed
+      t: Selbstgesteuertes Lernen (Google, Stack Overflow, usw.)
+    - key: resources.first_steps.others
+      t: Andere erste Lernmethoden
+    - key: resources.first_steps.others.description
+      t: Andere Antworten (Freifeld).
+
+
     # blogs & magazines
     - key: resources.blogs_news_magazines
       t: Blogs & Magazine
