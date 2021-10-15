@@ -609,6 +609,8 @@ translations:
       t: Andere Barrierefreiheitsfunktionen
     - key: environments.accessibility_features.others
       t: Andere Barrierefreiheitsfunktionen, die du normalerweise implementierst.
+    - key: environments.what_do_you_use_css_for.others
+      t: Andere Projektarten
     - key: environments.css_for_print
       t: CSS für Print
     - key: environments.css_for_print.description
