@@ -431,6 +431,13 @@ translations:
     - key: options.yearly_salary.range_more_than_200.short
       t: '>$200k'
 
+    # higher education degree
+    - key: options.higher_education_degree.no
+      t: Nein
+    - key: options.higher_education_degree.yes_related
+      t: Ja, in einem Bereich, der mit meinem derzeitigen Beruf zusammenhängt
+    - key: options.higher_education_degree.yes_unrelated
+      t: Ja, aber in einem Bereich, der nichts mit meinem derzeitigen Beruf zu tun hat
     # job titles
     - key: options.job_title.cto
       t: CTO
@@ -746,6 +753,12 @@ translations:
       t: Jährliches Einkommen
     - key: user_info.yearly_salary.description
       t: Jährliches Einkommen in USD.
+
+    # higher education degree
+    - key: user_info.higher_education_degree
+      t: Hochschulabschluss?
+    - key: user_info.higher_education_degree.description
+      t: Besitzt Du einen Hochschulabschluss?
 
     # job title
     - key: user_info.job_title
