@@ -656,7 +656,7 @@ translations:
     - key: options.tool_evaluation.creator_team
       t: Creator & Team
     - key: options.tool_evaluation.creator_team.description
-      t: Wird es von einem bekannten, erfahrenen und gut ausgestatteten Tam entwickelt?
+      t: Wird es von einem bekannten, erfahrenen und gut ausgestatteten Team entwickelt?
     - key: options.tool_evaluation.accessibility_features
       t: Accessibility Features
     - key: options.tool_evaluation.accessibility_features.description
