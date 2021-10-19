@@ -684,9 +684,9 @@ translations:
     t: Freude
 
   # Browser interoperability question
-  - key: opinions_other.browser_interoperability_features
+  - key: opinions_others.browser_interoperability_features
     t: Browser-Inkompatibilitäten
-  - key: opinions_other.browser_interoperability_features.description
+  - key: opinions_others.browser_interoperability_features.description
     t: >
       Gibt es CSS-Funktionen, die du aufgrund von Unterschieden
       zwischen den Browsern nicht verwenden kannst?
@@ -697,7 +697,7 @@ translations:
   - key: opinions.css_pain_points.description
     t: Wähle für jede Übereinstimmung den Aspekt von CSS aus, mit dem du am meisten zu kämpfen hast.
 
-  - key: opinions_other.css_pain_points.others
+  - key: opinions_others.css_pain_points.others
     t: Andere CSS Pain Points
 
   # Missing Features
@@ -705,7 +705,7 @@ translations:
     t: Was fehlt deiner Meinung nach derzeit in CSS?
   - key: opinions.currently_missing_from_css.description
     t: Wähle für jede Übereinstimmung die Funktion aus, die du heute am liebsten in CSS verwenden möchtest.
-  - key: opinions_other.currently_missing_from_css.others
+  - key: opinions_others.currently_missing_from_css.others
     t: Andere fehlende Funktionen
   - key: opinions_others.currently_missing_from_css.others.note
     t: >
