@@ -209,21 +209,21 @@ translations:
     ###########################################################################
 
     # heatmaps
-    - key: blocks.tools_company_size_heatmap.title
+    - key: blocks.tools_company_size_heatmap
       t: Nutzung nach Unternehmensgröße
     - key: blocks.tools_company_size_heatmap.description
       t: |
         Wie sich die Nutzung über die Unternehmensgröße verteilt.
 
 
-    - key: blocks.tools_yearly_salary_heatmap.title
+    - key: blocks.tools_yearly_salary_heatmap
       t: Nutzung nach Einkommen
     - key: blocks.tools_yearly_salary_heatmap.description
       t: |
         Wie sich die Nutzung über das Einkommen verteilt.
 
 
-    - key: blocks.tools_years_of_experience_heatmap.title
+    - key: blocks.tools_years_of_experience_heatmap
       t: Nutzung nach Erfahrung nach Jahren
     - key: blocks.tools_years_of_experience_heatmap.description
       t: |
@@ -237,12 +237,12 @@ translations:
       t: GitHub
 
     # cardinality
-    - key: blocks.all_sections_tools_cardinality_by_user.title
+    - key: blocks.all_sections_tools_cardinality_by_user
       t: Kardinalität der Technologienutzung
     - key: blocks.all_sections_tools_cardinality_by_user.description
       t: Welcher Prozentsatz der Befragten und je Abschnitt verwendet (definiert als 'würde wieder verwenden') eine, zwei, drei usw. Technologien.
 
-    - key: blocks.front_end_frameworks_tools_cardinality_by_user.title
+    - key: blocks.front_end_frameworks_tools_cardinality_by_user
       t: Kardinalität der Technologienutzung
     - key: blocks.front_end_frameworks_tools_cardinality_by_user.description
       t: Welcher Prozentsatz der Befragten verwendet (definiert als „würde wieder verwenden“) eine, zwei, drei usw. Technologien.
@@ -251,7 +251,7 @@ translations:
       t: Häufigste Antwort
 
     # tools arrows
-    - key: blocks.tools_arrows.title
+    - key: blocks.tools_arrows
       t: Zeitliche Veränderung
     - key: blocks.tools_arrows.description
       t: |
@@ -263,7 +263,7 @@ translations:
           - Technologien mit nur einem Jahr Daten werden nicht angezeigt.
 
     # tools quadrant
-    - key: blocks.tools_quadrant.title
+    - key: blocks.tools_quadrant
       t: Zufriedenheit im Vergleich zur Nutzung
     - key: blocks.tools_quadrant.description
       t: |
@@ -287,19 +287,19 @@ translations:
         (Beachte, dass niedrigere Nutzerzahlen an einer unbekannten Technologie liegen können oder die Technologie wird bereits von vielen Teilnehmern genutzt.)
 
     # category other tools
-    - key: blocks.category_other_tools.title
+    - key: blocks.category_other_tools
       t: Andere Werkzeuge
     - key: blocks.category_other_tools.description
       t: Andere Werkzeuge in dieser Kategorie (Freifeldtext).
 
     # tool experience
-    - key: blocks.tool_experience.title
+    - key: blocks.tool_experience
       t: '{name} Erfahrung'
     - key: blocks.tool_experience.description
       t: Erfahrungen der Teilnehmer mit {name}.
 
     # tool positive/negative split ("marimekko" chart)
-    - key: blocks.tools_experience_marimekko.title
+    - key: blocks.tools_experience_marimekko
       t: Positiv/Negativ-Aufteilung
     - key: blocks.tools_experience_marimekko.description
       t: |
@@ -309,7 +309,7 @@ translations:
         Die Balkendicke stellt die Anzahl der Befragten dar, die sich einer Technologie bewusst sind.
 
     # tools section streams
-    - key: blocks.tools_section_streams.title
+    - key: blocks.tools_section_streams
       t: Erfahrung über Zeit
     - key: blocks.tools_section_streams.description
       t: |
@@ -319,7 +319,7 @@ translations:
         Technologien mit nur einem Jahr Daten werden nicht aufgeführt.
 
     # tools section overview
-    - key: blocks.tools_section_overview.title
+    - key: blocks.tools_section_overview
       t: Kategorie Überblick
     - key: blocks.tools_section_overview.description
       t: |
@@ -327,7 +327,7 @@ translations:
 
 
     # tools experience ranking
-    - key: blocks.tools_experience_ranking.title
+    - key: blocks.tools_experience_ranking
       t: Rangliste
     - key: blocks.tools_experience_ranking.description
       t: Einstufung von Bekanntheit, Interesse und Zufriedenheit.
@@ -341,7 +341,7 @@ translations:
         - Bekanntheit: (**total** - **nie davon gehört**) / **total**
 
     # happiness
-    - key: blocks.happiness.title
+    - key: blocks.happiness
       t: Allgemeine Zufriedenheit
     - key: blocks.happiness.description
       t: |
@@ -349,7 +349,7 @@ translations:
         wie zufrieden sind Entwickler allgemein mit dem Status in dieser Kategorie?
 
     # newsletter
-    - key: blocks.newsletter.title
+    - key: blocks.newsletter
       t: Bleib dran
     - key: blocks.newsletter.description
       t: |
@@ -361,7 +361,7 @@ translations:
       t: Benachrichtige mich
 
     # features_overview
-    - key: blocks.features_overview.title
+    - key: blocks.features_overview
       t: Überblick Nutzung
     - key: blocks.features_overview.description
       t: |
@@ -386,7 +386,7 @@ translations:
           Du kannst diese Query in unsere <a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">öffentliche GraphQL-API</a> kopieren.
 
     # Tools usage variations
-    - key: blocks.tools_usage_variations.title
+    - key: blocks.tools_usage_variations
       t: Variation in der Nutzung
     - key: blocks.tools_usage_variations.description
       t: |
@@ -405,7 +405,7 @@ translations:
         Beachte, dass Werkzeuge mit weniger Nutzung mehr Variation haben.
 
     # Recommended Resources
-    - key: blocks.recommended_resources.title
+    - key: blocks.recommended_resources
       t: Empfohlene Ressourcen
 
     ###########################################################################
