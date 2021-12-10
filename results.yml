@@ -349,7 +349,7 @@ translations:
         wie zufrieden sind Entwickler allgemein mit dem Status in dieser Kategorie?
 
     # newsletter
-    - key: blocks.newsletter
+    - key: blocks.newsletter.title
       t: Bleib dran
     - key: blocks.newsletter.description
       t: |
