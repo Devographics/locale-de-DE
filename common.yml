@@ -145,9 +145,9 @@ translations:
       t: Löschen
 
     # partners
-    - key: partners.our_partners
+    - key: sponsors.our_partners
       t: Unsere Partner
-    - key: partners.become_partner
+    - key: sponsors.become_partner
       t: Werde Partner
 
     # 404
