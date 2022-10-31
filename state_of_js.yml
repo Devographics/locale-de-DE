@@ -102,31 +102,16 @@ translations:
     # syntax
     - key: features.destructuring
       t: Destructuring
-    - key: features.destructuring.description
-      t: 'Beispiel: `const { foo } = bar`'
     - key: features.spread_operator
       t: Spread operator
-    - key: features.spread_operator.description
-      t: 'Beispiel: `[...array1, ...array2]`'
     - key: features.arrow_functions
       t: Arrow Functions
-    - key: features.arrow_functions.description
-      t: 'Beispiel: `const foo = () => {}`'
     - key: features.nullish_coalescing
       t: Nullish Coalescing
-    - key: features.nullish_coalescing.description
-      t: >
-        Beispiel: `const foo = 0 ?? 42`
     - key: features.optional_chaining
       t: Optional Chaining
-    - key: features.optional_chaining.description
-      t: >
-        Beispiel: `const dogName = adventurer.dog?.name`
     - key: features.private_fields
       t: Private Fields
-    - key: features.private_fields.description
-      t: >
-        Beispiel: `class ClassWithPrivateField { #privateField }`
 
     # language
     - key: features.proxies
@@ -143,9 +128,6 @@ translations:
 
     - key: features.dynamic_import
       t: Dynamic Import
-    - key: features.dynamic_import.description
-      t: >
-        Beispiel: <code>await import('/modules/my-module.js')</code>
 
     # data structures
     - key: features.maps
