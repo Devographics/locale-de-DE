@@ -55,7 +55,7 @@ translations:
     - key: general.preview_survey
       t: Vorschau auf Umfrage »
     - key: general.finish_survey
-      t: Umfrage fertigstellen »
+      t: Umfrage fertigstellen
     - key: general.survey_closed
       t: Die Umfrage ist geschlossen.
     - key: general.survey_results
