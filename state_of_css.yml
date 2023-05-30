@@ -13,10 +13,6 @@ translations:
 
       Auf Grund des Erfolgs unserer jährlichen State Of JavaScript Umfragen haben wir entschieden einen Schritt in die Welt der Styles und Selektoren zu gehen. Wir hoffen Du hilfst uns die aktuellen Trends zu identifizieren und herauszufinden welche Tools es sich lohnt als nächstes zu lernen und zu nutzen!
 
-
-
-
-
   - key: general.results.description
     t: Die jährliche Umfrage zu den CSS-Trends.
 
@@ -230,7 +226,7 @@ translations:
   - key: features.exclusions
     t: CSS Exclusions
   - key: features.position_sticky
-    t: '<code>position: sticky</code>'
+    t: "<code>position: sticky</code>"
   - key: features.logical_properties
     t: Logical Properties
   - key: features.logical_properties.description
@@ -435,7 +431,7 @@ translations:
   - key: options.units.pt
     t: pt
   - key: options.units.percent
-    t: '%'
+    t: "%"
   - key: options.units.em
     t: em
   - key: options.units.rem
@@ -461,21 +457,21 @@ translations:
     t: Welche dieser CSS Pseudoelemente hast Du genutzt?
 
   - key: options.pseudo_elements.before
-    t: '::before'
+    t: "::before"
   - key: options.pseudo_elements.after
-    t: '::after'
+    t: "::after"
   - key: options.pseudo_elements.first_line
-    t: '::first-line'
+    t: "::first-line"
   - key: options.pseudo_elements.first_letter
-    t: '::first-letter'
+    t: "::first-letter"
   - key: options.pseudo_elements.selection
-    t: '::selection'
+    t: "::selection"
   - key: options.pseudo_elements.placeholder
-    t: '::placeholder'
+    t: "::placeholder"
   - key: options.pseudo_elements.marker
-    t: '::marker'
+    t: "::marker"
   - key: options.pseudo_elements.backdrop
-    t: '::backdrop'
+    t: "::backdrop"
 
   - key: features_others.combinators
     t: Verkettungen
@@ -701,13 +697,13 @@ translations:
     t: Andere CSS Pain Points
 
   # Missing Features
-  - key: opinions.currently_missing_from_css
+  - key: opinions.css_missing_features
     t: Was fehlt deiner Meinung nach derzeit in CSS?
-  - key: opinions.currently_missing_from_css.description
+  - key: opinions.css_missing_features.description
     t: Wähle für jede Übereinstimmung die Funktion aus, die du heute am liebsten in CSS verwenden möchtest.
-  - key: opinions_others.currently_missing_from_css.others
+  - key: opinions_others.css_missing_features.others
     t: Andere fehlende Funktionen
-  - key: opinions_others.currently_missing_from_css.others.note
+  - key: opinions_others.css_missing_features.others.note
     t: >
       Diese Ergebnisse wurden bearbeitet, basierend auf einem Freitextfeld.
       Um alle Ergebnisse zu sehen, schaue auf [whatsmissingfromcss.com](http://whatsmissingfromcss.com/).
