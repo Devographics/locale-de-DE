@@ -63,7 +63,12 @@ translations:
   - key: sections.units_selectors.title
     t: Einheiten und Selektoren
   - key: sections.units_selectors.description
-    t: Teste Dein Wissen zu CSS Einheiten und Selektoren.
+    t: Teste Dein Wissen zu CSS-Einheiten und Selektoren.
+
+  - key: sections.colors.title
+    t: Farben
+  - key: sections.colors.description
+    t: Farbbezogene Funktionen.
 
   - key: sections.pre_post_processors.title
     t: Pre-/Post-processors
@@ -106,6 +111,11 @@ translations:
     t: Umgebungen
   - key: sections.environments.description
     t: Für welche Umgebungen schreibst Du CSS?
+
+  - key: sections.usage_css.title
+    t: CSS-Benutzung
+  - key: sections.usage_css.description
+    t: Wie du CSS benutzt.
 
   ###########################################################################
   # Options
@@ -201,9 +211,29 @@ translations:
   - key: options.what_do_you_use_css_for.css_art
     t: CSS-Kunst & Illustrationen
   - key: options.what_do_you_use_css_for.emails
-    t: Emails
+    t: E-Mails
   - key: options.what_do_you_use_css_for.printed_documents
     t: Gedruckte Dokumente
+
+  - key: usage.css_usage_type
+    t: CSS-Benutzung
+  - key: usage.css_usage_type.description
+    t: In welchem Kontext nutzt du CSS primär?
+  - key: usage.css_usage_type.others
+    t: Andere Benutzungsarten
+
+  - key: usage.css_js_balance
+    t: CSS- vs. JavaScript-Balance
+  - key: usage.css_js_balance.description
+    t: Wie teilst du deine Zeit zwischen dem Schreiben von CSS- (HTML eingeschlossen) und JavaScript-Code auf?
+
+  # Browser interoperability question
+  - key: opinions_others.browser_interoperability_features.others
+    t: Browserinkompatibilitäten
+  - key: opinions_others.browser_interoperability_features.others.description
+    t: >
+      Gibt es existierende CSS-Funktionen, bei denen du Probleme hast, diese zu benutzen (oder komplett vermeidest)
+      weil die Unterstützung durch verschiedene Browser fehlt oder die Ergebnisse sich in diesen unterscheiden?
 
   ###########################################################################
   # Features
@@ -728,6 +758,12 @@ translations:
     t: Erste Schritte mit CSS
   - key: resources.first_steps_css.description
     t: Wie hast Du zu Beginn deiner Tätigkeit CSS gelernt?
+
+  - key: resources.learning_methods_css
+    t: CSS-Lernmethoden
+  - key: resources.learning_methods_css.description
+    t: Welche Ressourcen hast du benutzt, um CSS zu lernen?
+
   - key: resources.first_steps.books
     t: Bücher
   - key: resources.first_steps.videos
@@ -752,3 +788,91 @@ translations:
     t: Andere erste Lernmethoden
   - key: resources.first_steps.others.description
     t: Andere Antworten (Freifeld).
+    
+  ##########################################################################
+  # Other Tools
+  ###########################################################################
+
+  - key: tools_others.libraries
+    t: Bibliotheken
+  - key: tools_others.libraries.description
+    t: Welche Bibliotheken nutzt du regelmäßig?
+  - key: tools_others.libraries.others
+    t: Andere Bibliotheken
+  - key: tools_others.libraries.others.description
+    t: Andere Antworten (Freitextfeld)
+
+  - key: tools_others.text_editors
+    t: Text Editoren
+  - key: tools_others.text_editors.description
+    t: Welche/n Text Editor/en nutzt Du regelmäßig?
+  - key: tools_others.text_editors.others
+    t: Andere Text Editoren
+  - key: tools_others.text_editors.others.description
+    t: Andere Antworten (Freifeld).
+
+  - key: tools_others.utilities
+    t: Bibliotheken
+  - key: tools_others.utilities.description
+    t: Welche Bibliotheken nutzt Du regelmäßig?
+  - key: tools_others.utilities.others
+    t: Andere Bibliotheken
+  - key: tools_others.utilities.others.description
+    t: Andere Antworten (Freifeld).
+  - key: options.utilities.na
+    t: Keine
+
+  - key: tools_others.browsers
+    t: Browser
+  - key: tools_others.browsers.description
+    t: Welche/n Browser nutzt Du primär zu Beginn eines neuen Projekts?
+  - key: tools_others.browsers.others
+    t: Andere Browser
+  - key: tools_others.browsers.others.description
+    t: Andere Antworten (Freifeld).
+
+  - key: tools_others.build_tools
+    t: Build-Werkzeuge
+  - key: tools_others.build_tools.description
+    t: Welche Build-Werkzeuge nutzt Du?
+  - key: tools_others.build_tools.others
+    t: Andere Build-Werkzeuge
+  - key: tools_others.build_tools.others.description
+    t: Andere Antworten (Freifeld).
+
+  - key: tools_others.non_js_languages
+    t: Nicht-JavaScript Sprachen
+  - key: tools_others.non_js_languages.description
+    t: Welche anderen Programmiersprachen nutzt Du?
+  - key: tools_others.non_js_languages.others
+    t: Andere Programmiersprachen
+  - key: tools_others.non_js_languages.others.description
+    t: Andere Antworten (Freifeld).
+
+  - key: tools_others.pre_post_processors.description
+    t: Welche Pre- oder Post-Prozessoren benutzt du regelmäßig?
+  - key: options.pre_post_processors.na
+    t: Keine
+
+  - key: environments.what_do_you_use_css_for
+    t: Wofür benutzt du CSS hauptsächlich?
+  - key: environments.what_do_you_use_css_for.description
+    t: Für welche Projekte nutzt du CSS hauptsächlich?
+  - key: environments.what_do_you_use_css_for.others
+    t: Andere Arten von Projekten
+
+  ###########################################################################
+  # Survey Help
+  ###########################################################################
+
+  - key: features.features_intro_css
+    t: |
+      Willkommen zur Umfrage! Dieser erste Abschnitt dreht sich darum, herauszufinden,
+      welche **CSS-Funktionen** du kennst.
+      
+      Apropos: Wenn du uns mehr zu deiner Auswahl erzählen möchtest, klicke einfach auf das kleine "Kommentar"-Icon!
+
+  - key: tools.tools_intro_css
+    t: |
+      Die nächsten paar Abschnitte fokussieren sich auf **Bibliotheken** und **Frameworks**, aus denen
+      das CSS-Ökosystem besteht. Lass uns wissen, was dich davon begeistert!
