@@ -289,10 +289,6 @@ translations:
     - key: options.tools.would_not_use.short
       t: Würde ich nicht verwenden
 
-    # code example
-    - key: general.code_example
-      t: Codebeispiel
-
     # other
     - key: general.thanks1
       t: Danke für das Ausfüllen der Umfrage! Deine Daten wurden gespeichert.
