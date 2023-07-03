@@ -60,7 +60,7 @@ These strings appear in both.
 
 ## Joining Translation Teams
 
-It's recommended you join the [translation team](https://github.com/orgs/StateOfJS/teams/translators/teams) for the language you want to translate.
+It's recommended you join the [translation team](https://github.com/orgs/Devographics/teams) for the language you want to translate. In our case it is [de-DE](https://github.com/orgs/Devographics/teams/de-de).
 
 ## Local Development
 
