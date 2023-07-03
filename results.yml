@@ -383,7 +383,7 @@ translations:
       t: Entschuldigung, ein CSV-Export ist für diese Daten nicht verfügbar.
     - key: export.graphql
       t: >
-          Du kannst diese Query in unsere <a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">öffentliche GraphQL-API</a> kopieren.
+          Du kannst diese Query in unsere <a target="_blank" rel="nofollow" href="https://graphiql.devographics.com/">öffentliche GraphQL-API</a> kopieren.
 
     # Tools usage variations
     - key: blocks.tools_usage_variations
