@@ -412,10 +412,6 @@ translations:
     t: Scoping
   - key: features.scoping.description
     t: Die Möglichkeit, genauer anzugeben, wo die Stile angewendet werden.
-  - key: features.subgrid
-    t: Subgrid
-  - key: features.subgrid.description
-    t: Verschachtelung von Subgrids auf tieferen Ebenen in einem übergeordneten Raster.
 
   ###########################################################################
   # Units & Selectors
