@@ -18,7 +18,7 @@ Here is a sample query:
 
 ```graphql
 query GetLocaleData {
-  locale(localeId: de_DE) {
+  locale(localeId: "de-DE") {
     completion
     totalCount
     translatedCount
