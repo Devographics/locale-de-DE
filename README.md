@@ -12,7 +12,7 @@ Every translator will be credited on any site that makes use of the translations
 
 You can get extra data such as the completion percentage for a locale or the untranslated strings via our API, available at:
 
-- https://graphiql-internal.devographics.com
+- https://graphiql-internal.devographics.com/
 
 Here is a sample query:
 
