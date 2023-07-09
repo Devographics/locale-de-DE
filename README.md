@@ -12,7 +12,7 @@ Every translator will be credited on any site that makes use of the translations
 
 You can get extra data such as the completion percentage for a locale or the untranslated strings via our API, available at:
 
-- https://graphiql.stateofjs.com/
+- https://graphiql-internal.devographics.com/
 
 Here is a sample query:
 
@@ -60,7 +60,7 @@ These strings appear in both.
 
 ## Joining Translation Teams
 
-It's recommended you join the [translation team](https://github.com/orgs/StateOfJS/teams/translators/teams) for the language you want to translate.
+It's recommended you join the [translation team](https://github.com/orgs/Devographics/teams) for the language you want to translate. In our case it is [de-DE](https://github.com/orgs/Devographics/teams/de-de).
 
 ## Local Development
 
