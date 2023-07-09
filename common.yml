@@ -143,6 +143,8 @@ translations:
       t: Option wählen
     - key: forms.clear_field
       t: Löschen
+    - key: forms.more_options
+      t: Weitere anzeigen …
 
     # partners
     - key: sponsors.our_partners
@@ -163,6 +165,12 @@ translations:
       t: Drücke Strg/Alt, um den Übersetzer-Modus zu starten.
     - key: general.charts_nivo
       t: Charts generiert mit <a href="{link}">Nivo</a>.
+    - key: general.view_code_example
+      t: Codebeispiel ansehen
+    - key: general.feature_code_example
+      t: "**{featureName}** Codebeispiel"
+    - key: general.code_example
+      t: Codebeispiel
 
     ###########################################################################
     # Nav
@@ -280,6 +288,16 @@ translations:
       t: Würde ich wieder verwenden
     - key: options.tools.would_not_use.short
       t: Würde ich nicht verwenden
+
+    # other
+    - key: general.thanks1
+      t: Danke für das Ausfüllen der Umfrage! Deine Daten wurden gespeichert.
+    - key: thanks.features_score
+      t: Funktionen-Punktezahle
+    - key: thanks.score_explanation_no_ranking
+      t: >
+        Du hast <span class="score-number score-number-known">{known}</span> von
+        <span class="score-number score-number-total">{total}</span> Funktionen, die in der Umfrage erwähnt wurden, schon benutzt bzw. davon gehört.
 
     # happiness
     - key: options.happiness.0
@@ -824,64 +842,6 @@ translations:
       t: Andere Industriesektoren in denen du arbeitest, die aber oben nicht genannt wurden.
 
     ###########################################################################
-    # Other Tools
-    ###########################################################################
-
-    - key: tools_others.libraries
-      t: Bibliotheken
-    - key: tools_others.libraries.description
-      t: Welche Bibliotheken nutzt du regelmäßig?
-    - key: tools_others.libraries.others
-      t: Andere Bibliotheken
-    - key: tools_others.libraries.others.description
-      t: Andere Antworten (Freitextfeld)
-
-    - key: tools_others.text_editors
-      t: Text Editoren
-    - key: tools_others.text_editors.description
-      t: Welche/n Text Editor/en nutzt Du regelmäßig?
-    - key: tools_others.text_editors.others
-      t: Andere Text Editoren
-    - key: tools_others.text_editors.others.description
-      t: Andere Antworten (Freifeld).
-
-    - key: tools_others.utilities
-      t: Bibliotheken
-    - key: tools_others.utilities.description
-      t: Welche Bibliotheken nutzt Du regelmäßig?
-    - key: tools_others.utilities.others
-      t: Andere Bibliotheken
-    - key: tools_others.utilities.others.description
-      t: Andere Antworten (Freifeld).
-
-    - key: tools_others.browsers
-      t: Browser
-    - key: tools_others.browsers.description
-      t: Welche/n Browser nutzt Du primär zu Beginn eines neuen Projekts?
-    - key: tools_others.browsers.others
-      t: Andere Browser
-    - key: tools_others.browsers.others.description
-      t: Andere Antworten (Freifeld).
-
-    - key: tools_others.build_tools
-      t: Build-Werkzeuge
-    - key: tools_others.build_tools.description
-      t: Welche Build-Werkzeuge nutzt Du?
-    - key: tools_others.build_tools.others
-      t: Andere Build-Werkzeuge
-    - key: tools_others.build_tools.others.description
-      t: Andere Antworten (Freifeld).
-
-    - key: tools_others.non_js_languages
-      t: Nicht-JavaScript Sprachen
-    - key: tools_others.non_js_languages.description
-      t: Welche anderen Programmiersprachen nutzt Du?
-    - key: tools_others.non_js_languages.others
-      t: Andere Programmiersprachen
-    - key: tools_others.non_js_languages.others.description
-      t: Andere Antworten (Freifeld).
-
-    ###########################################################################
     # Resources
     ###########################################################################
 
@@ -929,4 +889,30 @@ translations:
     - key: resources.people.others.description
       t: >
         Personen deren Artikel du liest, denen du folgst oder du wegen ihrer Arbeit erwähnen willst
-        (Freifeldtext, Namen kommasepariert).
+        (Freifeldtext, Namen kommasepariert). 
+
+    # other surveys
+    - key: resources.other_surveys
+      t: Andere Umfragen
+    - key: resources.other_surveys.description
+      t: An welchen anderen Entwickler*innenumfragen nimmst du noch teil?
+    - key: resources.other_surveys.others
+      t: Weitere Umfragen, die nicht oben erwähnt wurden
+    - key: options.other_surveys.na
+      t: Keine
+
+    # how can we improve the survey?
+    - key: user_info.how_can_we_improve
+      t: Wie können wir diese Umfrage verbessern?
+
+    # email_temporary (receive updates?)
+    - key: user_info.receive_notifications
+      t: Willst du darüber informiert werden, wenn die Umfrageergebnisse veröffentlicht werden?
+    - key: user_info.receive_notifications.note
+      t: >
+        Wir speichern keine privaten Daten, d. h. nachdem deine E-Mail-Adresse zu unserem 
+        Mailinglistenanbieter gesendet wurde, wird sie bei uns gelöscht
+
+    # email_temporary (receive updates?)
+    - key: options.receive_notifications.yes
+      t: Ja, sendet mir eine E-Mail, wenn die Umfrageergebnisse veröffentlicht werden.

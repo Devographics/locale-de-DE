@@ -8,6 +8,8 @@ translations:
       t: Keine Umfragen in der Vorschau verfügbar.
     - key: general.global_nav
       t: Global
+    - key: general.pick_up_to
+      t: Wähle bis zu {limit} Elemente.
 
     ###########################################################################
     # FAQ
@@ -64,6 +66,52 @@ translations:
     - key: bracket.cancel
       t: Abbrechen
 
+    - key: experience.leave_comment
+      t: Hinterlasse einen Kommentar (optional)
+    - key: experience.leave_comment_short
+      t: Hinterlasse einen Kommentar
+    - key: experience.tell_us_more
+      t: "Du hast mit “{response}” geantwortet. Erzähle uns mehr über deine Auswahl:"
+    - key: experience.tell_us_more_no_value
+      t: "Du keine Antwort ausgewählt. Erzähle uns, warum:"
+
+    ###########################################################################
+    # Reading List
+    ###########################################################################
+
+    - key: readinglist.add_to_list
+      t: Zu deiner Leseliste hinzufügen
+
+    - key: readinglist.added_to_list
+      t: “{label}” zu deiner Leseliste hinzugefügt.
+
+    - key: readinglist.title
+      t: Leseliste
+
+    - key: readinglist.description
+      t: >
+        Speichere Einträge hier mithilfe des "+"-Buttons und du wirst am Ende der Umfrage eine Liste mit Links bekommen, um mehr über diese Themen zu erfahren.
+
+    - key: readinglist.empty
+      t: >
+        Du hast keine Einträge in deiner Leseliste.
+        Versuche, zur Umfrage zurückzukehren und Funktionen oder Bibliotheken,
+        die du magst, hinzuzufügen, indem du den "+"-Button benutzt.
+
+    - key: readinglist.results
+      t: >
+        Hier sind einige Ressourcen, um mehr über die Einträge deiner Leseliste zu lernen
+
+    - key: readinglist.homepage_link
+      t: Homepage
+
+    - key: readinglist.receive_copy
+      t: >
+        Trage deine E-Mail-Adresse ein, um eine Kopie deiner Leseliste direkt in deinen Posteingang zu bekommen:
+    - key: readinglist.send_by_email
+      t: Gesendet
+    - key: readinglist.email_sent
+      t: Danke! Deine Leseliste ist auf den Weg in deinen Posteingang.
 
     ###########################################################################
     # Demographics (About You/User Info)

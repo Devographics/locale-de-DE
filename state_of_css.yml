@@ -63,7 +63,12 @@ translations:
   - key: sections.units_selectors.title
     t: Einheiten und Selektoren
   - key: sections.units_selectors.description
-    t: Teste Dein Wissen zu CSS Einheiten und Selektoren.
+    t: Teste Dein Wissen zu CSS-Einheiten und Selektoren.
+
+  - key: sections.colors.title
+    t: Farben
+  - key: sections.colors.description
+    t: Farbbezogene Funktionen.
 
   - key: sections.pre_post_processors.title
     t: Pre-/Post-processors
@@ -107,6 +112,11 @@ translations:
   - key: sections.environments.description
     t: Für welche Umgebungen schreibst Du CSS?
 
+  - key: sections.usage_css.title
+    t: CSS-Benutzung
+  - key: sections.usage_css.description
+    t: Wie du CSS benutzt.
+
   ###########################################################################
   # Options
   ###########################################################################
@@ -114,43 +124,43 @@ translations:
   # CSS for print
   - key: options.css_for_print.0
     t: Ich schreibe fast nie Print Styles.
-  - key: options.css_for_print.0.short # TODO
+  - key: options.css_for_print.0.short  # TODO
     t: Nie
 
   - key: options.css_for_print.1
     t: Ich schreibe gelegentlich Print Styles.
-  - key: options.css_for_print.1.short # TODO
+  - key: options.css_for_print.1.short  # TODO
     t: Gelegentlich
 
   - key: options.css_for_print.2
     t: Ich schreibe Print Styles üblicherweise als Teil meiner Projekte.
-  - key: options.css_for_print.2.short # TODO
+  - key: options.css_for_print.2.short  # TODO
     t: Oft
 
   - key: options.css_for_print.3
     t: Ich schreibe hauptsächlich Print Styles.
-  - key: options.css_for_print.3.short # TODO
+  - key: options.css_for_print.3.short  # TODO
     t: Hauptsächlich
 
   # CSS for email
   - key: options.css_for_email.0
     t: Ich schreibe fast nie CSS für E-Mail Clients.
-  - key: options.css_for_email.0.short # TODO
+  - key: options.css_for_email.0.short  # TODO
     t: Nie
 
   - key: options.css_for_email.1
     t: Ich schreibe gelegentlich CSS für E-Mail Clients.
-  - key: options.css_for_email.1.short # TODO
+  - key: options.css_for_email.1.short  # TODO
     t: Gelegentlich
 
   - key: options.css_for_email.2
     t: Ich schreibe CSS für E-Mail Clients üblicherweise als Teil meiner Projekte.
-  - key: options.css_for_email.2.short # TODO
+  - key: options.css_for_email.2.short  # TODO
     t: Oft
 
   - key: options.css_for_email.3
     t: Ich schreibe CSS hauptsächlich für E-Mail Clients.
-  - key: options.css_for_email.3.short # TODO
+  - key: options.css_for_email.3.short  # TODO
     t: Hauptsächlich
 
   # CSS pain points
@@ -201,9 +211,29 @@ translations:
   - key: options.what_do_you_use_css_for.css_art
     t: CSS-Kunst & Illustrationen
   - key: options.what_do_you_use_css_for.emails
-    t: Emails
+    t: E-Mails
   - key: options.what_do_you_use_css_for.printed_documents
     t: Gedruckte Dokumente
+
+  - key: usage.css_usage_type
+    t: CSS-Benutzung
+  - key: usage.css_usage_type.description
+    t: In welchem Kontext nutzt du CSS primär?
+  - key: usage.css_usage_type.others
+    t: Andere Benutzungsarten
+
+  - key: usage.css_js_balance
+    t: CSS- vs. JavaScript-Balance
+  - key: usage.css_js_balance.description
+    t: Wie teilst du deine Zeit zwischen dem Schreiben von CSS- (HTML eingeschlossen) und JavaScript-Code auf?
+
+  # Browser interoperability question
+  - key: opinions_others.browser_interoperability_features.others
+    t: Browserinkompatibilitäten
+  - key: opinions_others.browser_interoperability_features.others.description
+    t: >
+      Gibt es existierende CSS-Funktionen, bei denen du Probleme hast, diese zu benutzen (oder komplett vermeidest)
+      weil die Unterstützung durch verschiedene Browser fehlt oder die Ergebnisse sich in diesen unterscheiden?
 
   ###########################################################################
   # Features
@@ -471,7 +501,7 @@ translations:
 
   - key: features_others.combinators
     t: Verkettungen
-  - key: features_others.combinators.description # TODO
+  - key: features_others.combinators.description  # TODO
     t: Welche dieser kombinierten CSS-Selektoren hast du verwendet?
 
   - key: options.combinators.descendant
@@ -485,7 +515,7 @@ translations:
 
   - key: features_others.tree_document_structure
     t: Baum/ Dokumentstruktur
-  - key: features_others.tree_document_structure.description # TODO
+  - key: features_others.tree_document_structure.description  # TODO
     t: Welche dieser strukturbezogenen CSS-Selektoren hast du verwendet?
 
   - key: options.tree_document_structure.root
@@ -525,7 +555,7 @@ translations:
 
   - key: features_others.attributes
     t: Attribute
-  - key: features_others.attributes.description # TODO
+  - key: features_others.attributes.description  # TODO
     t: Welche dieser CSS-Attributselektoren hast du verwendet?
 
   - key: options.attributes.presence
@@ -543,7 +573,7 @@ translations:
 
   - key: features_others.links_urls
     t: Links/URLs
-  - key: features_others.links_urls.description # TODO
+  - key: features_others.links_urls.description  # TODO
     t: Welche dieser Link- und URL-bezogenen CSS-Selektoren hast du verwendet?
 
   - key: options.links_urls.any_link
@@ -557,7 +587,7 @@ translations:
 
   - key: features_others.interaction
     t: Interaktion
-  - key: features_others.interaction.description # TODO
+  - key: features_others.interaction.description  # TODO
     t: Welche dieser CSS-Selektoren für Interaktionen hast du verwendet?
 
   - key: options.interaction.hover
@@ -573,7 +603,7 @@ translations:
 
   - key: features_others.form_controls
     t: Formularfelder
-  - key: features_others.form_controls.description # TODO
+  - key: features_others.form_controls.description  # TODO
     t: Welche dieser formularbezogenen CSS-Selektoren hast du verwendet?
 
   - key: options.form_controls.enabled_disabled
@@ -647,32 +677,32 @@ translations:
 
   - key: opinions.css_easy_to_learn
     t: CSS ist leicht zu lernen.
-  - key: opinions.css_easy_to_learn.title # TODO
+  - key: opinions.css_easy_to_learn.title  # TODO
     t: Lernkurve
 
   - key: opinions.css_evolving_slowly
     t: CSS entwickelt sich zu langsam.
-  - key: opinions.css_evolving_slowly.title # TODO
+  - key: opinions.css_evolving_slowly.title  # TODO
     t: Veränderungsrate
 
   - key: opinions.utility_classes_to_be_avoided
     t: Werkzeugklassen (nicht-semantische z.B. .center, .large-text, usw.) sollten vermieden werden.
-  - key: opinions.utility_classes_to_be_avoided.title # TODO
+  - key: opinions.utility_classes_to_be_avoided.title  # TODO
     t: Non-Semantic Classes
 
   - key: opinions.selector_nesting_to_be_avoided
     t: Verschachteln von Selektoren (.foo .bar ul li {...}) sollte vermieden werden.
-  - key: opinions.selector_nesting_to_be_avoided.title # TODO
+  - key: opinions.selector_nesting_to_be_avoided.title  # TODO
     t: Selector Verschachtelung
 
   - key: opinions.css_is_programming_language
     t: CSS ist eine Programmiersprache.
-  - key: opinions.css_is_programming_language.title # TODO
+  - key: opinions.css_is_programming_language.title  # TODO
     t: Programmiersprache
 
   - key: opinions.enjoy_writing_css
     t: Ich genieße es CSS zu schreiben.
-  - key: opinions.enjoy_writing_css.title # TODO
+  - key: opinions.enjoy_writing_css.title  # TODO
     t: Freude
 
   # Browser interoperability question
@@ -724,6 +754,12 @@ translations:
     t: Erste Schritte mit CSS
   - key: resources.first_steps_css.description
     t: Wie hast Du zu Beginn deiner Tätigkeit CSS gelernt?
+
+  - key: resources.learning_methods_css
+    t: CSS-Lernmethoden
+  - key: resources.learning_methods_css.description
+    t: Welche Ressourcen hast du benutzt, um CSS zu lernen?
+
   - key: resources.first_steps.books
     t: Bücher
   - key: resources.first_steps.videos
@@ -748,3 +784,91 @@ translations:
     t: Andere erste Lernmethoden
   - key: resources.first_steps.others.description
     t: Andere Antworten (Freifeld).
+    
+  ##########################################################################
+  # Other Tools
+  ###########################################################################
+
+  - key: tools_others.libraries
+    t: Bibliotheken
+  - key: tools_others.libraries.description
+    t: Welche Bibliotheken nutzt du regelmäßig?
+  - key: tools_others.libraries.others
+    t: Andere Bibliotheken
+  - key: tools_others.libraries.others.description
+    t: Andere Antworten (Freitextfeld)
+
+  - key: tools_others.text_editors
+    t: Text Editoren
+  - key: tools_others.text_editors.description
+    t: Welche/n Text Editor/en nutzt Du regelmäßig?
+  - key: tools_others.text_editors.others
+    t: Andere Text Editoren
+  - key: tools_others.text_editors.others.description
+    t: Andere Antworten (Freifeld).
+
+  - key: tools_others.utilities
+    t: Bibliotheken
+  - key: tools_others.utilities.description
+    t: Welche Bibliotheken nutzt Du regelmäßig?
+  - key: tools_others.utilities.others
+    t: Andere Bibliotheken
+  - key: tools_others.utilities.others.description
+    t: Andere Antworten (Freifeld).
+  - key: options.utilities.na
+    t: Keine
+
+  - key: tools_others.browsers
+    t: Browser
+  - key: tools_others.browsers.description
+    t: Welche/n Browser nutzt Du primär zu Beginn eines neuen Projekts?
+  - key: tools_others.browsers.others
+    t: Andere Browser
+  - key: tools_others.browsers.others.description
+    t: Andere Antworten (Freifeld).
+
+  - key: tools_others.build_tools
+    t: Build-Werkzeuge
+  - key: tools_others.build_tools.description
+    t: Welche Build-Werkzeuge nutzt Du?
+  - key: tools_others.build_tools.others
+    t: Andere Build-Werkzeuge
+  - key: tools_others.build_tools.others.description
+    t: Andere Antworten (Freifeld).
+
+  - key: tools_others.non_js_languages
+    t: Nicht-JavaScript Sprachen
+  - key: tools_others.non_js_languages.description
+    t: Welche anderen Programmiersprachen nutzt Du?
+  - key: tools_others.non_js_languages.others
+    t: Andere Programmiersprachen
+  - key: tools_others.non_js_languages.others.description
+    t: Andere Antworten (Freifeld).
+
+  - key: tools_others.pre_post_processors.description
+    t: Welche Pre- oder Post-Prozessoren benutzt du regelmäßig?
+  - key: options.pre_post_processors.na
+    t: Keine
+
+  - key: environments.what_do_you_use_css_for
+    t: Wofür benutzt du CSS hauptsächlich?
+  - key: environments.what_do_you_use_css_for.description
+    t: Für welche Projekte nutzt du CSS hauptsächlich?
+  - key: environments.what_do_you_use_css_for.others
+    t: Andere Arten von Projekten
+
+  ###########################################################################
+  # Survey Help
+  ###########################################################################
+
+  - key: features.features_intro_css
+    t: |
+      Willkommen zur Umfrage! Dieser erste Abschnitt dreht sich darum, herauszufinden,
+      welche **CSS-Funktionen** du kennst.
+      
+      Apropos: Wenn du uns mehr zu deiner Auswahl erzählen möchtest, klicke einfach auf das kleine "Kommentar"-Icon!
+
+  - key: tools.tools_intro_css
+    t: |
+      Die nächsten paar Abschnitte fokussieren sich auf **Bibliotheken** und **Frameworks**, aus denen
+      das CSS-Ökosystem besteht. Lass uns wissen, was dich davon begeistert!
