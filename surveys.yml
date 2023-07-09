@@ -8,9 +8,8 @@ translations:
       t: Keine Umfragen in der Vorschau verfügbar.
     - key: general.global_nav
       t: Global
-
-  - key: general.pick_up_to
-    t: Wähle bis zu {limit} Elemente.
+    - key: general.pick_up_to
+      t: Wähle bis zu {limit} Elemente.
 
     ###########################################################################
     # FAQ

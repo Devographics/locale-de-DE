@@ -124,7 +124,7 @@ translations:
       t: Decorators
     - key: features.decorators.description
       t: >
-          Einfach gesagt ist ein Decorator eine simple Variante einen Codeteil in einem anderen zu umschließen - ihn buchstäblich zu "dekorieren".
+        Einfach gesagt ist ein Decorator eine simple Variante einen Codeteil in einem anderen zu umschließen - ihn buchstäblich zu "dekorieren".
 
     - key: features.dynamic_import
       t: Dynamic Import
