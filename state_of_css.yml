@@ -124,43 +124,43 @@ translations:
   # CSS for print
   - key: options.css_for_print.0
     t: Ich schreibe fast nie Print Styles.
-  - key: options.css_for_print.0.short  # TODO
+  - key: options.css_for_print.0.short # TODO
     t: Nie
 
   - key: options.css_for_print.1
     t: Ich schreibe gelegentlich Print Styles.
-  - key: options.css_for_print.1.short  # TODO
+  - key: options.css_for_print.1.short # TODO
     t: Gelegentlich
 
   - key: options.css_for_print.2
     t: Ich schreibe Print Styles üblicherweise als Teil meiner Projekte.
-  - key: options.css_for_print.2.short  # TODO
+  - key: options.css_for_print.2.short # TODO
     t: Oft
 
   - key: options.css_for_print.3
     t: Ich schreibe hauptsächlich Print Styles.
-  - key: options.css_for_print.3.short  # TODO
+  - key: options.css_for_print.3.short # TODO
     t: Hauptsächlich
 
   # CSS for email
   - key: options.css_for_email.0
     t: Ich schreibe fast nie CSS für E-Mail Clients.
-  - key: options.css_for_email.0.short  # TODO
+  - key: options.css_for_email.0.short # TODO
     t: Nie
 
   - key: options.css_for_email.1
     t: Ich schreibe gelegentlich CSS für E-Mail Clients.
-  - key: options.css_for_email.1.short  # TODO
+  - key: options.css_for_email.1.short # TODO
     t: Gelegentlich
 
   - key: options.css_for_email.2
     t: Ich schreibe CSS für E-Mail Clients üblicherweise als Teil meiner Projekte.
-  - key: options.css_for_email.2.short  # TODO
+  - key: options.css_for_email.2.short # TODO
     t: Oft
 
   - key: options.css_for_email.3
     t: Ich schreibe CSS hauptsächlich für E-Mail Clients.
-  - key: options.css_for_email.3.short  # TODO
+  - key: options.css_for_email.3.short # TODO
     t: Hauptsächlich
 
   # CSS pain points
@@ -408,8 +408,6 @@ translations:
     t: <code>@property</code>
   - key: features.at_layer
     t: <code>@layer</code>
-  - key: features.content_visibility
-    t: <code>content-visibility</code>
   - key: features.marker
     t: <code>::marker</code> pseudo-element
 
@@ -501,7 +499,7 @@ translations:
 
   - key: features_others.combinators
     t: Verkettungen
-  - key: features_others.combinators.description  # TODO
+  - key: features_others.combinators.description # TODO
     t: Welche dieser kombinierten CSS-Selektoren hast du verwendet?
 
   - key: options.combinators.descendant
@@ -515,7 +513,7 @@ translations:
 
   - key: features_others.tree_document_structure
     t: Baum/ Dokumentstruktur
-  - key: features_others.tree_document_structure.description  # TODO
+  - key: features_others.tree_document_structure.description # TODO
     t: Welche dieser strukturbezogenen CSS-Selektoren hast du verwendet?
 
   - key: options.tree_document_structure.root
@@ -555,7 +553,7 @@ translations:
 
   - key: features_others.attributes
     t: Attribute
-  - key: features_others.attributes.description  # TODO
+  - key: features_others.attributes.description # TODO
     t: Welche dieser CSS-Attributselektoren hast du verwendet?
 
   - key: options.attributes.presence
@@ -573,7 +571,7 @@ translations:
 
   - key: features_others.links_urls
     t: Links/URLs
-  - key: features_others.links_urls.description  # TODO
+  - key: features_others.links_urls.description # TODO
     t: Welche dieser Link- und URL-bezogenen CSS-Selektoren hast du verwendet?
 
   - key: options.links_urls.any_link
@@ -587,7 +585,7 @@ translations:
 
   - key: features_others.interaction
     t: Interaktion
-  - key: features_others.interaction.description  # TODO
+  - key: features_others.interaction.description # TODO
     t: Welche dieser CSS-Selektoren für Interaktionen hast du verwendet?
 
   - key: options.interaction.hover
@@ -603,7 +601,7 @@ translations:
 
   - key: features_others.form_controls
     t: Formularfelder
-  - key: features_others.form_controls.description  # TODO
+  - key: features_others.form_controls.description # TODO
     t: Welche dieser formularbezogenen CSS-Selektoren hast du verwendet?
 
   - key: options.form_controls.enabled_disabled
@@ -647,10 +645,9 @@ translations:
     t: Welche Barrierefreiheitsfunktionen implementierst du normalerweise?
   - key: environments.accessibility_features.others
     t: Andere Barrierefreiheitsfunktionen
-  - key: environments.accessibility_features.others
+  - key: environments.accessibility_features.others.description
     t: Andere Barrierefreiheitsfunktionen, die du normalerweise implementierst.
-  - key: environments.what_do_you_use_css_for.others
-    t: Andere Projektarten
+
   - key: environments.css_for_print
     t: CSS für Print
   - key: environments.css_for_print.description
@@ -677,32 +674,32 @@ translations:
 
   - key: opinions.css_easy_to_learn
     t: CSS ist leicht zu lernen.
-  - key: opinions.css_easy_to_learn.title  # TODO
+  - key: opinions.css_easy_to_learn.title # TODO
     t: Lernkurve
 
   - key: opinions.css_evolving_slowly
     t: CSS entwickelt sich zu langsam.
-  - key: opinions.css_evolving_slowly.title  # TODO
+  - key: opinions.css_evolving_slowly.title # TODO
     t: Veränderungsrate
 
   - key: opinions.utility_classes_to_be_avoided
     t: Werkzeugklassen (nicht-semantische z.B. .center, .large-text, usw.) sollten vermieden werden.
-  - key: opinions.utility_classes_to_be_avoided.title  # TODO
+  - key: opinions.utility_classes_to_be_avoided.title # TODO
     t: Non-Semantic Classes
 
   - key: opinions.selector_nesting_to_be_avoided
     t: Verschachteln von Selektoren (.foo .bar ul li {...}) sollte vermieden werden.
-  - key: opinions.selector_nesting_to_be_avoided.title  # TODO
+  - key: opinions.selector_nesting_to_be_avoided.title # TODO
     t: Selector Verschachtelung
 
   - key: opinions.css_is_programming_language
     t: CSS ist eine Programmiersprache.
-  - key: opinions.css_is_programming_language.title  # TODO
+  - key: opinions.css_is_programming_language.title # TODO
     t: Programmiersprache
 
   - key: opinions.enjoy_writing_css
     t: Ich genieße es CSS zu schreiben.
-  - key: opinions.enjoy_writing_css.title  # TODO
+  - key: opinions.enjoy_writing_css.title # TODO
     t: Freude
 
   # Browser interoperability question
@@ -784,7 +781,7 @@ translations:
     t: Andere erste Lernmethoden
   - key: resources.first_steps.others.description
     t: Andere Antworten (Freifeld).
-    
+
   ##########################################################################
   # Other Tools
   ###########################################################################
@@ -865,7 +862,7 @@ translations:
     t: |
       Willkommen zur Umfrage! Dieser erste Abschnitt dreht sich darum, herauszufinden,
       welche **CSS-Funktionen** du kennst.
-      
+
       Apropos: Wenn du uns mehr zu deiner Auswahl erzählen möchtest, klicke einfach auf das kleine "Kommentar"-Icon!
 
   - key: tools.tools_intro_css
