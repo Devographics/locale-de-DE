@@ -844,7 +844,7 @@ translations:
   # blogs & magazines
   - key: resources.blogs_news_magazines
     t: Blogs & Magazine
-  - key: resources.blogs_news_magazines.description
+  - key: resources.blogs_news_magazines.question
     t: Welche Blogs & Magazine o.ä. liest Du?
   - key: resources.blogs_news_magazines.others
     t: Andere Blogs & Magazine
@@ -854,7 +854,7 @@ translations:
   # sites & courses
   - key: resources.sites_courses
     t: Seiten & Kurse
-  - key: resources.sites_courses.description
+  - key: resources.sites_courses.question
     t: Welche Seiten & Kurse o.ä. konsultierst Du?
   - key: resources.sites_courses.others
     t: Andere Seiten & Kurse
@@ -864,7 +864,7 @@ translations:
   # podcasts
   - key: resources.podcasts
     t: Podcasts
-  - key: resources.podcasts.description
+  - key: resources.podcasts.question
     t: Welche Podcasts im Hinblick auf Programmierung hörst Du?
   - key: resources.podcasts.others
     t: Andere Podcasts
@@ -890,7 +890,7 @@ translations:
   # other surveys
   - key: resources.other_surveys
     t: Andere Umfragen
-  - key: resources.other_surveys.description
+  - key: resources.other_surveys.question
     t: An welchen anderen Entwickler*innenumfragen nimmst du noch teil?
   - key: resources.other_surveys.others
     t: Weitere Umfragen, die nicht oben erwähnt wurden
