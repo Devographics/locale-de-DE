@@ -735,69 +735,69 @@ translations:
   # years of experience
   - key: user_info.years_of_experience
     t: Erfahrung in Jahren
-  - key: user_info.years_of_experience.description
+  - key: user_info.years_of_experience.question
     t: Wie lange Du in diesem Feld arbeitest oder beschäftigt bist.
 
   # company size
   - key: user_info.company_size
     t: Unternehmensgröße
-  - key: user_info.company_size.description
+  - key: user_info.company_size.question
     t: Wie groß Dein Unternehmen ist.
 
   # salary ranges
   - key: user_info.yearly_salary
     t: Jährliches Einkommen
-  - key: user_info.yearly_salary.description
+  - key: user_info.yearly_salary.question
     t: Jährliches Einkommen in USD.
 
   # higher education degree
   - key: user_info.higher_education_degree
     t: Hochschulabschluss?
-  - key: user_info.higher_education_degree.description
+  - key: user_info.higher_education_degree.question
     t: Besitzt Du einen Hochschulabschluss?
 
   # job title
   - key: user_info.job_title
     t: Job Titel
-  - key: user_info.job_title.description
+  - key: user_info.job_title.question
     t: Wie bezeichnest du dich?
 
   # javascript proficiency
   - key: user_info.javascript_proficiency
     t: JavaScript Fähigkeiten
-  - key: user_info.javascript_proficiency.description
+  - key: user_info.javascript_proficiency.question
     t: Wie sind deine Fähigkeiten im Bezug auf JavaScript?
 
   # css proficiency
   - key: user_info.css_proficiency
     t: CSS Fähigkeiten
-  - key: user_info.css_proficiency.description
+  - key: user_info.css_proficiency.question
     t: Wie sind deine Fähigkeiten im Bezug auf CSS?
 
   # backend proficiency
   - key: user_info.backend_proficiency
     t: Backend Fähigkeiten
-  - key: user_info.backend_proficiency.description
+  - key: user_info.backend_proficiency.question
     t: Wie sind deine Fähigkeiten im Bezug auf Entwicklungen im Backend?
 
   # gender
   - key: user_info.gender
     t: Geschlecht
-  - key: user_info.gender.description
+  - key: user_info.gender.question
     t: >
       Wir nutzen diese Daten zur verfolgung und Verbesserung der Repräsentativität.
 
   # race & ethnicity
   - key: user_info.race_ethnicity
     t: Rasse & Ethnizität
-  - key: user_info.race_ethnicity.description
+  - key: user_info.race_ethnicity.question
     t: >
       Wir nutzen diese Daten zur verfolgung und Verbesserung der Repräsentativität.
 
   # disability status
   - key: user_info.disability_status
     t: Behinderung
-  - key: user_info.disability_status.description
+  - key: user_info.disability_status.question
     t: >
       Wir nutzen diese Daten zur verfolgung und Verbesserung der Zugänglichkeit und Repräsentativität.
 
@@ -830,7 +830,7 @@ translations:
 
   - key: user_info.industry_sector
     t: Industriesektor
-  - key: user_info.industry_sector.description
+  - key: user_info.industry_sector.question
     t: In welchem Industriesektor arbeitest du?
   - key: user_info.industry_sector.others
     t: Andere Industriesektoren

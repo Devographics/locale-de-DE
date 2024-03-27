@@ -1,143 +1,143 @@
 locale: de-DE
 translations:
-    ###########################################################################
-    # General
-    ###########################################################################
+  ###########################################################################
+  # General
+  ###########################################################################
 
-    - key: general.no_preview_surveys
-      t: Keine Umfragen in der Vorschau verfügbar.
-    - key: general.global_nav
-      t: Global
-    - key: general.pick_up_to
-      t: Wähle bis zu {limit} Elemente.
+  - key: general.no_preview_surveys
+    t: Keine Umfragen in der Vorschau verfügbar.
+  - key: general.global_nav
+    t: Global
+  - key: general.pick_up_to
+    t: Wähle bis zu {limit} Elemente.
 
-    ###########################################################################
-    # FAQ
-    ###########################################################################
+  ###########################################################################
+  # FAQ
+  ###########################################################################
 
-    - key: general.faq
-      t: FAQ
-    - key: faq.create_account
-      t: Warum brauche ich einen Account?
-    - key: faq.create_account.description
-      t: Wir bitten dich einen Account anzulegen, um doppelte Antworten zu vermeiden, deine Daten zu speichern und um dich über die Ergebnisse zu informieren.
-    - key: faq.questions_required
-      t: Muss jede Frage beantwortet werden?
-    - key: faq.questions_required.description
-      t: Nein, jede Frage ist freiwillig und kann übersprungen werden.
-    - key: faq.data_published
-      t: Werden meine Daten veröffentlicht?
-    - key: faq.data_published.description
-      t: Ja, alle Daten werden veröffentlicht, aber erst nachdem persönliche Daten entfernt wurden (E-Mail, Nutzernamen, ID's, usw.).
-    - key: faq.survey_design
-      t: Wie sind die Umfragen gestaltet?
-    - key: faq.survey_design.description
-      t: Die Umfragen werden basierend auf dem Feedback der Community gestaltet und von Experten begutachtet. Du kannst hier [mehr erfahren](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
-    - key: faq.results_released
-      t: Wann werden die Ergebnisse veröffentlicht?
-    - key: faq.results_released.description
-      t: Ergebnisse werden verfügbar einige Wochen nachdem die Umfrage geschlossen wurde.
-    - key: faq.survey_deadline
-      t: Wann wird die Umfrage geschlossen?
-    - key: faq.survey_deadline.description
-      t: Die Umfrage läuft planmäßig bis {date}.
-    - key: faq.team
-      t: Wer betreibt die Umfragen?
-    - key: faq.team.description
-      t: Die Umfragen werden primär durch [mich](http://sachagreif.com) betrieben und in Zusammenarbeit mit Beitragenden, Übersetzer:innen und Freiwilligen.
+  - key: general.faq
+    t: FAQ
+  - key: faq.create_account
+    t: Warum brauche ich einen Account?
+  - key: faq.create_account.description
+    t: Wir bitten dich einen Account anzulegen, um doppelte Antworten zu vermeiden, deine Daten zu speichern und um dich über die Ergebnisse zu informieren.
+  - key: faq.questions_required
+    t: Muss jede Frage beantwortet werden?
+  - key: faq.questions_required.description
+    t: Nein, jede Frage ist freiwillig und kann übersprungen werden.
+  - key: faq.data_published
+    t: Werden meine Daten veröffentlicht?
+  - key: faq.data_published.description
+    t: Ja, alle Daten werden veröffentlicht, aber erst nachdem persönliche Daten entfernt wurden (E-Mail, Nutzernamen, ID's, usw.).
+  - key: faq.survey_design
+    t: Wie sind die Umfragen gestaltet?
+  - key: faq.survey_design.description
+    t: Die Umfragen werden basierend auf dem Feedback der Community gestaltet und von Experten begutachtet. Du kannst hier [mehr erfahren](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
+  - key: faq.results_released
+    t: Wann werden die Ergebnisse veröffentlicht?
+  - key: faq.results_released.description
+    t: Ergebnisse werden verfügbar einige Wochen nachdem die Umfrage geschlossen wurde.
+  - key: faq.survey_deadline
+    t: Wann wird die Umfrage geschlossen?
+  - key: faq.survey_deadline.description
+    t: Die Umfrage läuft planmäßig bis {date}.
+  - key: faq.team
+    t: Wer betreibt die Umfragen?
+  - key: faq.team.description
+    t: Die Umfragen werden primär durch [mich](http://sachagreif.com) betrieben und in Zusammenarbeit mit Beitragenden, Übersetzer:innen und Freiwilligen.
 
-    ###########################################################################
-    # Form Controls
-    ###########################################################################
+  ###########################################################################
+  # Form Controls
+  ###########################################################################
 
-    - key: bracket.vs
-      t: vs
-    - key: bracket.start_over
-      t: Von vorn beginnen
-    - key: bracket.winner
-      t: >
-      Gewinner:
-    - key: bracket.round
-      t: Runde
-    - key: bracket.empty_bracket
-      t: Ausstehende Ergebnisse (vervollständige erst die vorherige Runde)
-    - key: bracket.result
-      t: Ergebnis
-    - key: bracket.cancel
-      t: Abbrechen
+  - key: bracket.vs
+    t: vs
+  - key: bracket.start_over
+    t: Von vorn beginnen
+  - key: bracket.winner
+    t: >
+    Gewinner:
+  - key: bracket.round
+    t: Runde
+  - key: bracket.empty_bracket
+    t: Ausstehende Ergebnisse (vervollständige erst die vorherige Runde)
+  - key: bracket.result
+    t: Ergebnis
+  - key: bracket.cancel
+    t: Abbrechen
 
-    - key: experience.leave_comment
-      t: Hinterlasse einen Kommentar (optional)
-    - key: experience.leave_comment_short
-      t: Hinterlasse einen Kommentar
-    - key: experience.tell_us_more
-      t: "Du hast mit “{response}” geantwortet. Erzähle uns mehr über deine Auswahl:"
-    - key: experience.tell_us_more_no_value
-      t: "Du keine Antwort ausgewählt. Erzähle uns, warum:"
+  - key: experience.leave_comment
+    t: Hinterlasse einen Kommentar (optional)
+  - key: experience.leave_comment_short
+    t: Hinterlasse einen Kommentar
+  - key: experience.tell_us_more
+    t: "Du hast mit “{response}” geantwortet. Erzähle uns mehr über deine Auswahl:"
+  - key: experience.tell_us_more_no_value
+    t: "Du keine Antwort ausgewählt. Erzähle uns, warum:"
 
-    ###########################################################################
-    # Reading List
-    ###########################################################################
+  ###########################################################################
+  # Reading List
+  ###########################################################################
 
-    - key: readinglist.add_to_list
-      t: Zu deiner Leseliste hinzufügen
+  - key: readinglist.add_to_list
+    t: Zu deiner Leseliste hinzufügen
 
-    - key: readinglist.added_to_list
-      t: “{label}” zu deiner Leseliste hinzugefügt.
+  - key: readinglist.added_to_list
+    t: “{label}” zu deiner Leseliste hinzugefügt.
 
-    - key: readinglist.title
-      t: Leseliste
+  - key: readinglist.title
+    t: Leseliste
 
-    - key: readinglist.description
-      t: >
-        Speichere Einträge hier mithilfe des "+"-Buttons und du wirst am Ende der Umfrage eine Liste mit Links bekommen, um mehr über diese Themen zu erfahren.
+  - key: readinglist.description
+    t: >
+      Speichere Einträge hier mithilfe des "+"-Buttons und du wirst am Ende der Umfrage eine Liste mit Links bekommen, um mehr über diese Themen zu erfahren.
 
-    - key: readinglist.empty
-      t: >
-        Du hast keine Einträge in deiner Leseliste.
-        Versuche, zur Umfrage zurückzukehren und Funktionen oder Bibliotheken,
-        die du magst, hinzuzufügen, indem du den "+"-Button benutzt.
+  - key: readinglist.empty
+    t: >
+      Du hast keine Einträge in deiner Leseliste.
+      Versuche, zur Umfrage zurückzukehren und Funktionen oder Bibliotheken,
+      die du magst, hinzuzufügen, indem du den "+"-Button benutzt.
 
-    - key: readinglist.results
-      t: >
-        Hier sind einige Ressourcen, um mehr über die Einträge deiner Leseliste zu lernen
+  - key: readinglist.results
+    t: >
+      Hier sind einige Ressourcen, um mehr über die Einträge deiner Leseliste zu lernen
 
-    - key: readinglist.homepage_link
-      t: Homepage
+  - key: readinglist.homepage_link
+    t: Homepage
 
-    - key: readinglist.receive_copy
-      t: >
-        Trage deine E-Mail-Adresse ein, um eine Kopie deiner Leseliste direkt in deinen Posteingang zu bekommen:
-    - key: readinglist.send_by_email
-      t: Gesendet
-    - key: readinglist.email_sent
-      t: Danke! Deine Leseliste ist auf den Weg in deinen Posteingang.
+  - key: readinglist.receive_copy
+    t: >
+      Trage deine E-Mail-Adresse ein, um eine Kopie deiner Leseliste direkt in deinen Posteingang zu bekommen:
+  - key: readinglist.send_by_email
+    t: Gesendet
+  - key: readinglist.email_sent
+    t: Danke! Deine Leseliste ist auf den Weg in deinen Posteingang.
 
-    ###########################################################################
-    # Demographics (About You/User Info)
-    ###########################################################################
+  ###########################################################################
+  # Demographics (About You/User Info)
+  ###########################################################################
 
-    - key: user_info.gender.description
-      t: >
-        Was beschreibt dich, sofern zutreffend?
-
-
-        Wir nutzen diese Daten um Inklusivität und Repräsentativität zu verfolgen und zu verbessern.
-        Wie alle anderen Fragen ist dies rein optional.
-
-    - key: user_info.race_ethnicity.description
-      t: >
-        Was beschreibt dich, sofern zutreffend? Bitte wähle alles Zutreffende.
+  - key: user_info.gender.question
+    t: >
+      Was beschreibt dich, sofern zutreffend?
 
 
-        Wir nutzen diese Daten um Inklusivität und Repräsentativität zu verfolgen und zu verbessern.
-        Wie alle anderen Fragen ist dies rein optional.
+      Wir nutzen diese Daten um Inklusivität und Repräsentativität zu verfolgen und zu verbessern.
+      Wie alle anderen Fragen ist dies rein optional.
 
-    - key: user_info.disability_status.description
-      t: >
-        Was beschreibt dich, sofern zutreffend? Bitte wähle alles Zutreffende.
-        Das kann auch vorübergehende Einschränkungen und Verletzungen beinhalten.
+  - key: user_info.race_ethnicity.question
+    t: >
+      Was beschreibt dich, sofern zutreffend? Bitte wähle alles Zutreffende.
 
 
-        Wir nutzen diese Daten um Zugänglichkeit und Repräsentativität zu verfolgen und zu verbessern.
-        Wie alle anderen Fragen ist das rein optional.
+      Wir nutzen diese Daten um Inklusivität und Repräsentativität zu verfolgen und zu verbessern.
+      Wie alle anderen Fragen ist dies rein optional.
+
+  - key: user_info.disability_status.question
+    t: >
+      Was beschreibt dich, sofern zutreffend? Bitte wähle alles Zutreffende.
+      Das kann auch vorübergehende Einschränkungen und Verletzungen beinhalten.
+
+
+      Wir nutzen diese Daten um Zugänglichkeit und Repräsentativität zu verfolgen und zu verbessern.
+      Wie alle anderen Fragen ist das rein optional.
