@@ -788,7 +788,7 @@ translations:
 
   - key: tools_others.libraries
     t: Bibliotheken
-  - key: tools_others.libraries.description
+  - key: tools_others.libraries.question
     t: Welche Bibliotheken nutzt du regelmäßig?
   - key: tools_others.libraries.others
     t: Andere Bibliotheken
@@ -797,7 +797,7 @@ translations:
 
   - key: tools_others.text_editors
     t: Text Editoren
-  - key: tools_others.text_editors.description
+  - key: tools_others.text_editors.question
     t: Welche/n Text Editor/en nutzt Du regelmäßig?
   - key: tools_others.text_editors.others
     t: Andere Text Editoren
@@ -806,7 +806,7 @@ translations:
 
   - key: tools_others.utilities
     t: Bibliotheken
-  - key: tools_others.utilities.description
+  - key: tools_others.utilities.question
     t: Welche Bibliotheken nutzt Du regelmäßig?
   - key: tools_others.utilities.others
     t: Andere Bibliotheken
@@ -817,7 +817,7 @@ translations:
 
   - key: tools_others.browsers
     t: Browser
-  - key: tools_others.browsers.description
+  - key: tools_others.browsers.question
     t: Welche/n Browser nutzt Du primär zu Beginn eines neuen Projekts?
   - key: tools_others.browsers.others
     t: Andere Browser
@@ -826,7 +826,7 @@ translations:
 
   - key: tools_others.build_tools
     t: Build-Werkzeuge
-  - key: tools_others.build_tools.description
+  - key: tools_others.build_tools.question
     t: Welche Build-Werkzeuge nutzt Du?
   - key: tools_others.build_tools.others
     t: Andere Build-Werkzeuge
@@ -835,7 +835,7 @@ translations:
 
   - key: tools_others.non_js_languages
     t: Nicht-JavaScript Sprachen
-  - key: tools_others.non_js_languages.description
+  - key: tools_others.non_js_languages.question
     t: Welche anderen Programmiersprachen nutzt Du?
   - key: tools_others.non_js_languages.others
     t: Andere Programmiersprachen
