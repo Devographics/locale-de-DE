@@ -82,9 +82,9 @@ translations:
   - key: sections.build_tools.description
     t: Compiling & bundling Code
 
-  - key: sections.tools_others.title
+  - key: sections.tools.title
     t: Other Tools
-  - key: sections.tools_others.description
+  - key: sections.tools.description
     t: Andere JavaScript Werkzeuge
 
   ###########################################################################
@@ -188,22 +188,22 @@ translations:
   # Other Tools
   ###########################################################################
 
-  - key: tools_others.runtimes
+  - key: tools.runtimes
     t: JavaScript Runtimes
-  - key: tools_others.runtimes.question
+  - key: tools.runtimes.question
     t: Welche Engine-/Runtime-/Execution-Umgebungen nutzt du re­gel­mä­ßig?
-  - key: tools_others.runtimes.others
+  - key: tools.runtimes.others
     t: Andere Runtimes
-  - key: tools_others.runtimes.others.description
+  - key: tools.runtimes.others.description
     t: Andere Antworten (Freitextfeld).
 
-  - key: tools_others.package_registries
+  - key: tools.package_registries
     t: Package Registries
-  - key: tools_others.package_registries.question
+  - key: tools.package_registries.question
     t: Welche Package Registries nutzt du re­gel­mä­ßig um Pakete zu holen?
-  - key: tools_others.package_registries.others
+  - key: tools.package_registries.others
     t: Andere Package Registries
-  - key: tools_others.package_registries.others.description
+  - key: tools.package_registries.others.description
     t: Andere Antworten (Freitextfeld).
 
   ###########################################################################
