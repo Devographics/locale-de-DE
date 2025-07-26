@@ -101,5 +101,4 @@ translations:
   - key: accounts.upgrade_account.action
     t: Deinen Account upgraden
   - key: accounts.upgrade_account.description
-    t: Das Upgraden Deines Accounts mit einer E-Mail-Adresse ermöglicht es dir, auf Deine Umfrageergebnisse zuzugreifen nachdem du die Session beendet hast
-    
+    t: Das Upgraden Deines Accounts mit einer E-Mail-Adresse ermöglicht es dir, auf Deine Umfrageergebnisse zuzugreifen nachdem du die Session beendet hast.
