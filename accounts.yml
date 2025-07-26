@@ -71,3 +71,35 @@ translations:
   - key: accounts.questions
     t: >
         Wenn Du Fragen zur Datenverarbeitung hast oder Deine Daten löschen lassen möchtest <a href="mailto:hello@stateofjs.com">kontaktiere uns</a> gerne.
+  - key: accounts.logged_in_as_guest
+    t: Als Gast eingeloggt
+  - key: accounts.continue_as_guest
+    t: Als Gast fortfahren
+  - key: accounts.continue_as_guest.action
+    t: Als Gast fortfahren
+  - key: accounts.continue_as_guest.description
+    t: An der Umfrage anonym teilzunehmen bedeutet, dass Du **nicht in der Lage sein wirst, erneut auf Deine Daten zugreifen zu können** nachdem du die Session beendet hast 
+  - key: accounts.create_account
+    t: Mit Account fortfahren
+  - key: accounts.create_account.action
+    t: Mit Account fortfahren
+  - key: accounts.your_surveys
+    t: Deine Umfragen
+  - key: accounts.create_account.description
+    t: Einen Account zu haben, ermöglicht es Dir, **in Zukunft auf Deine eigenen Daten zugreifen zu können** und darüber informiert zu werden, wenn Umfrageergebnisse veröffentlich werden.
+  - key: accounts.create_account.note
+    t: Wenn du **schon über einen Account verfügst**, senden wir Dir einen magischen Login-Link per E-Mail.
+  - key: accounts.magic_link.no_email
+    t: Gebe bitte Deine E-Mail-Adresse ein
+  - key: accounts.magic_link.success
+    t: Prüfe deinen Posteingang! Wir haben Dir einen magischen Link geschickt. Klicke einfach auf ihn, um Deinen Account zu bestätigen und Dich einzuloggen.
+  - key: accounts.magic_link.browser
+    t: >
+        <a href=\"{link}\">Klicken, um Deinen Posteingang zu öffnen.</a>
+  - key: accounts.your_email
+    t: Deine E-Mail
+  - key: accounts.upgrade_account.action
+    t: Deinen Account upgraden
+  - key: accounts.upgrade_account.description
+    t: Das Upgraden Deines Accounts mit einer E-Mail-Adresse ermöglicht es dir, auf Deine Umfrageergebnisse zuzugreifen nachdem du die Session beendet hast
+    
