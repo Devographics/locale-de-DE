@@ -6,13 +6,13 @@ This repo contains the German language files for the State of JS/CSS/etc. Survey
 
 Every translator will be credited on any site that makes use of the translations, starting with the survey-taking app. You can add your name here if it's not already there.
 
-- https://github.com/StateOfJS/state-of-js-graphql-results-api/blob/master/src/data/locales.yml
+- https://github.com/Devographics/locale-de-DE/blob/main/config.yml#L3
 
 ## Translation API
 
 You can get extra data such as the completion percentage for a locale or the untranslated strings via our API, available at:
 
-- https://graphiql-internal.devographics.com/
+- https://graphiql.devographics.com/
 
 Here is a sample query:
 
