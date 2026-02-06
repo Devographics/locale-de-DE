@@ -197,7 +197,7 @@ translations:
   - key: sections.resources.title
     t: Ressourcen
   - key: sections.resources.description
-    t: Welche Ressourcen konsultierst Du zu {topic}?
+    t: Welche Ressourcen konsultierst Du?
 
   - key: sections.opinions.title
     t: Meinungen
